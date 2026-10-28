@@ -25,7 +25,7 @@ const ValueCard: React.FC<ValueCardProps> = ({
       </div>
       <h3
         className="text-lg font-semibold text-[#0B3D91]"
-        style={{ fontFamily: 'Fredoka, sans-serif' }}
+        style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
       >
         {title}
       </h3>

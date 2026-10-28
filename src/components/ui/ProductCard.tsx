@@ -41,14 +41,14 @@ const ProductCard: React.FC<ProductCardProps> = ({
         >
           <span
             className="font-bold text-xs"
-            style={{ fontFamily: 'Fredoka, sans-serif', color: lidColor }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif', color: lidColor }}
           >
             PlantSm<span style={{ color: '#FFD438' }}>ö</span>r
           </span>
         </div>
         <span
           className="text-center font-semibold text-[11px] leading-tight"
-          style={{ fontFamily: 'Fredoka, sans-serif', color: lidColor }}
+          style={{ fontFamily: 'Plus Jakarta Sans, sans-serif', color: lidColor }}
         >
           {name}
         </span>

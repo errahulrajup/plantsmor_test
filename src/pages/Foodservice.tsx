@@ -28,19 +28,19 @@ const Foodservice: React.FC = () => {
           <div className="max-w-3xl">
             <span
               className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-white/10 text-[#FFD438] inline-block mb-4"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Foodservice &amp; Commercial Supply
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight mb-6"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               PlantSmör for Professional Kitchens &amp; Food Businesses.
             </h1>
             <p
               className="text-lg md:text-xl text-white/80 leading-relaxed mb-8"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Delivering consistent, high-performing plant-based ingredients for restaurants, hotels, bakeries, food manufacturers, and commercial distributors.
             </p>
@@ -66,11 +66,11 @@ const Foodservice: React.FC = () => {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2
               className="text-3xl md:text-4xl font-semibold text-[#0B3D91] mb-4"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               Tailored Solutions for Every Channel
             </h2>
-            <p className="text-[#0B3D91]/70 text-base md:text-lg" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-[#0B3D91]/70 text-base md:text-lg" style={{ fontFamily: 'Inter, sans-serif' }}>
               Whether you are plating culinary dishes or formulating packaged food at scale, PlantSmör provides reliable plant-based execution.
             </p>
           </div>
@@ -110,18 +110,18 @@ const Foodservice: React.FC = () => {
                   <span className="text-4xl block mb-4">{item.icon}</span>
                   <h3
                     className="text-xl font-semibold text-[#0B3D91] mb-2"
-                    style={{ fontFamily: 'Fredoka, sans-serif' }}
+                    style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                   >
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
                     {item.desc}
                   </p>
                 </div>
                 <div className="mt-6 pt-4 border-t border-gray-100">
                   <span
                     className="text-xs font-bold text-[#0B3D91] uppercase tracking-wider"
-                    style={{ fontFamily: 'Dosis, sans-serif' }}
+                    style={{ fontFamily: 'Inter, sans-serif' }}
                   >
                     Dedicated Support
                   </span>
@@ -138,28 +138,28 @@ const Foodservice: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="p-8 rounded-3xl bg-[#FFFDF5] border border-[#0B3D91]/10">
               <span className="text-3xl block mb-3">⚡</span>
-              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
                 Kitchen Performance
               </h4>
-              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Engineered for heat stability, clean melt, and seamless blending across pan-frying, baking, and emulsion recipes.
               </p>
             </div>
             <div className="p-8 rounded-3xl bg-[#FFFDF5] border border-[#0B3D91]/10">
               <span className="text-3xl block mb-3">📦</span>
-              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
                 Bulk Formats
               </h4>
-              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Available in food-grade tubs, bulk blocks, and multi-kilo IQF vegetable bags designed to reduce kitchen packaging waste.
               </p>
             </div>
             <div className="p-8 rounded-3xl bg-[#FFFDF5] border border-[#0B3D91]/10">
               <span className="text-3xl block mb-3">🤝</span>
-              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              <h4 className="text-lg font-semibold text-[#0B3D91] mb-2" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
                 Quality Consistency
               </h4>
-              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              <p className="text-sm text-[#0B3D91]/70 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Batch-to-batch taste, texture, and melting reliability ensure your recipes taste identical every day.
               </p>
             </div>
@@ -174,17 +174,17 @@ const Foodservice: React.FC = () => {
             <div className="text-center max-w-xl mx-auto mb-10">
               <span
                 className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFD438]/30 text-[#0B3D91] inline-block mb-3"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Direct Commercial Enquiries
               </span>
               <h2
                 className="text-3xl md:text-4xl font-semibold text-[#0B3D91] mb-3"
-                style={{ fontFamily: 'Fredoka, sans-serif' }}
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
               >
                 Partner with PlantSmör
               </h2>
-              <p className="text-[#0B3D91]/70 text-sm md:text-base" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              <p className="text-[#0B3D91]/70 text-sm md:text-base" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Fill out the form below to request product specifications, pricing, sample batches, or distributor terms.
               </p>
             </div>
@@ -194,17 +194,17 @@ const Foodservice: React.FC = () => {
                 <span className="text-5xl block mb-4">✅</span>
                 <h3
                   className="text-2xl font-semibold text-[#0B3D91] mb-2"
-                  style={{ fontFamily: 'Fredoka, sans-serif' }}
+                  style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                 >
                   Thank You for Your Enquiry!
                 </h3>
-                <p className="text-[#0B3D91]/70 text-sm max-w-md mx-auto mb-6" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                <p className="text-[#0B3D91]/70 text-sm max-w-md mx-auto mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Our foodservice team will review your requirements and reach out within 1-2 business days.
                 </p>
                 <button
                   onClick={() => setFormSubmitted(false)}
                   className="px-6 py-2.5 rounded-full text-sm font-semibold bg-[#FFD438] text-[#0B3D91]"
-                  style={{ fontFamily: 'Dosis, sans-serif' }}
+                  style={{ fontFamily: 'Inter, sans-serif' }}
                 >
                   Submit Another Enquiry
                 </button>
@@ -213,7 +213,7 @@ const Foodservice: React.FC = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Contact Name *
                     </label>
                     <input
@@ -223,11 +223,11 @@ const Foodservice: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       placeholder="Your Full Name"
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Business / Organization Name *
                     </label>
                     <input
@@ -237,14 +237,14 @@ const Foodservice: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, businessName: e.target.value })}
                       placeholder="e.g. Green Olive Bistro"
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Work Email *
                     </label>
                     <input
@@ -254,11 +254,11 @@ const Foodservice: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       placeholder="name@business.com"
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Phone Number *
                     </label>
                     <input
@@ -268,21 +268,21 @@ const Foodservice: React.FC = () => {
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       placeholder="+91 / International number"
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Business Type
                     </label>
                     <select
                       value={formData.businessType}
                       onChange={(e) => setFormData({ ...formData, businessType: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       <option>Restaurant / Cafe</option>
                       <option>Hotel / Resort / Banquet</option>
@@ -294,14 +294,14 @@ const Foodservice: React.FC = () => {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Primary Product Interest
                     </label>
                     <select
                       value={formData.categoryInterest}
                       onChange={(e) => setFormData({ ...formData, categoryInterest: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       <option>Plant-Based Spreads (Bulk Tubs / Blocks)</option>
                       <option>Frozen Vegetables (IQF Bulk)</option>
@@ -314,7 +314,7 @@ const Foodservice: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <label className="block text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                     Requirements &amp; Estimated Monthly Volume
                   </label>
                   <textarea
@@ -323,7 +323,7 @@ const Foodservice: React.FC = () => {
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     placeholder="Tell us about your kitchen, delivery location, and expected volume requirements..."
                     className="w-full px-4 py-3 rounded-xl bg-[#FFFDF5] border border-[#0B3D91]/20 text-[#0B3D91] focus:outline-none focus:border-[#0B3D91] text-sm"
-                    style={{ fontFamily: 'Dosis, sans-serif' }}
+                    style={{ fontFamily: 'Inter, sans-serif' }}
                   />
                 </div>
 

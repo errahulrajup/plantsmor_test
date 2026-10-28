@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => (
           <span className="w-2 h-2 rounded-full bg-[#7CC576] animate-pulse" />
           <span
             className="text-xs font-bold uppercase tracking-widest text-[#0B3D91]"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             Sustainable Plant-Based Solutions
           </span>
@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => (
         {/* H1 */}
         <h1
           className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B3D91] leading-[1.12] tracking-tight"
-          style={{ fontFamily: 'Fredoka, sans-serif' }}
+          style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
         >
           Pure Ingredients.
           <br />
@@ -52,7 +52,7 @@ const HeroSection: React.FC = () => (
         {/* Subtitle */}
         <p
           className="text-lg md:text-xl text-[#0B3D91]/75 leading-relaxed max-w-xl"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           From premium table margarines &amp; bakery fats to farm-fresh IQF vegetables and plant proteins — PlantSmör engineers pure, clean-label plant solutions for household tables and commercial kitchens.
         </p>
@@ -74,94 +74,70 @@ const HeroSection: React.FC = () => (
         {/* Trust metrics */}
         <div className="grid grid-cols-3 gap-6 pt-6 border-t border-[#0B3D91]/10 max-w-lg">
           <div>
-            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
               100%
             </span>
-            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Inter, sans-serif' }}>
               Plant-Based
             </span>
           </div>
           <div>
-            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
               164
             </span>
-            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Inter, sans-serif' }}>
               Active SKUs
             </span>
           </div>
           <div>
-            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}>
               IQF
             </span>
-            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Inter, sans-serif' }}>
               Peak Freshness
             </span>
           </div>
         </div>
       </div>
 
-      {/* Right: BADA Hero Signature Blob Card Showcase (5 cols) */}
-      <div className="lg:col-span-5 flex items-center justify-center">
-        <div className="relative w-full max-w-md group">
-          {/* Main Floating Card */}
-          <div className="relative bg-white rounded-3xl p-6 sm:p-8 border border-slate-100 shadow-[0_12px_44px_rgba(11,61,145,0.08)] transition-all duration-500 group-hover:shadow-[0_20px_50px_rgba(11,61,145,0.12)]">
-            {/* Top Specs Pill */}
-            <div className="flex items-center justify-between mb-4">
-              <span
-                className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFF9D6] text-[#0B3D91] border border-[#FFD438]/40"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
-              >
-                Signature Formulation
-              </span>
-              <span className="text-xs font-semibold text-slate-400">Premium Grade</span>
-            </div>
+      {/* Right: Unboxed Spacious Hero Signature Blob (No box-in-a-box) */}
+      <div className="lg:col-span-5 flex items-center justify-center relative">
+        <div className="relative w-full max-w-lg flex items-center justify-center group py-6">
+          {/* Single Signature Organic Fluid Blob (Directly on canvas) */}
+          <div
+            className="absolute inset-0 rounded-[44%_56%_68%_32%/42%_48%_52%_58%] opacity-90 transition-transform duration-700 group-hover:rotate-3 group-hover:scale-105 shadow-sm"
+            style={{ backgroundColor: '#FFF9D6', minHeight: '360px' }}
+          />
 
-            {/* BADA Organic Fluid Blob with Product Hero Image */}
-            <div className="relative w-full h-64 sm:h-72 flex items-center justify-center overflow-visible my-3">
-              {/* Large Fluid Blob Background */}
-              <div
-                className="absolute inset-0 rounded-[42%_58%_70%_30%/45%_52%_48%_55%] opacity-90 transition-transform duration-700 group-hover:rotate-6 group-hover:scale-105"
-                style={{ backgroundColor: '#FFF9D6' }}
-              />
-              <img
-                src={greenPeasBlob}
-                alt="PlantSmör Signature Green Peas"
-                className="relative z-10 w-52 sm:w-60 h-52 sm:h-60 object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 select-none"
-              />
-            </div>
+          {/* Floating Product Image (HUGE, BADA & UNCONSTRAINED) */}
+          <img
+            src={greenPeasBlob}
+            alt="PlantSmör Farm-Fresh Green Peas"
+            className="relative z-10 w-72 sm:w-80 md:w-96 h-auto object-contain drop-shadow-2xl transition-transform duration-500 group-hover:scale-108 select-none py-6"
+          />
 
-            {/* Details Footer */}
-            <div className="pt-4 border-t border-slate-100 text-center">
-              <h3
-                className="text-xl font-bold text-[#0B3D91]"
-                style={{ fontFamily: 'Fredoka, sans-serif' }}
-              >
-                PlantSmör Farm-Fresh Green Peas
-              </h3>
-              <p className="text-sm text-slate-500 mt-1" style={{ fontFamily: 'Dosis, sans-serif' }}>
-                Individually Quick Frozen (IQF) at Peak Sweetness &amp; Color
-              </p>
+          {/* Floating Feature Pills (Glassmorphic & Transparent) */}
+          <div
+            className="absolute -top-1 right-2 sm:right-6 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/60 flex items-center gap-2 z-20"
+            style={{ fontFamily: 'Inter, sans-serif' }}
+          >
+            <span className="w-2 h-2 rounded-full bg-[#7CC576]" />
+            <span>100% Farm-Fresh IQF</span>
+          </div>
 
-              {/* Functional tags */}
-              <div className="flex flex-wrap justify-center gap-2 mt-4">
-                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
-                  0g Trans Fat
-                </span>
-                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
-                  Clean Label
-                </span>
-                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200">
-                  100% Vegan
-                </span>
-              </div>
-            </div>
+          <div
+            className="absolute -bottom-1 left-2 sm:left-6 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/60 flex items-center gap-2 z-20"
+            style={{ fontFamily: 'Inter, sans-serif' }}
+          >
+            <span className="w-2 h-2 rounded-full bg-[#FF8A3D]" />
+            <span>0g Trans Fat • Clean Label</span>
           </div>
         </div>
       </div>
     </div>
     {/* Scroll indicator */}
     <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-40">
-      <span className="text-xs text-[#0B3D91]" style={{ fontFamily: 'Dosis, sans-serif' }}>scroll</span>
+      <span className="text-xs text-[#0B3D91]" style={{ fontFamily: 'Inter, sans-serif' }}>scroll</span>
       <div className="w-0.5 h-6 bg-[#0B3D91] rounded-full animate-pulse" />
     </div>
   </section>
@@ -181,7 +157,7 @@ const BrandIntroSection: React.FC = () => (
       {/* Intro text */}
       <p
         className="text-center text-xl md:text-2xl text-[#0B3D91] max-w-3xl mx-auto leading-relaxed mb-16"
-        style={{ fontFamily: 'Dosis, sans-serif', fontWeight: 500 }}
+        style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}
       >
         PlantSmör is a plant-based food brand built for everyday cooking and professional kitchens alike. We make food that tastes great, is thoughtfully crafted, and is easy to love.
       </p>
@@ -199,13 +175,13 @@ const BrandIntroSection: React.FC = () => (
             </div>
             <span
               className="font-semibold text-[#0B3D91] text-sm md:text-base"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               {item.label}
             </span>
             <span
               className="text-xs text-[#0B3D91]/50"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {item.tag}
             </span>
@@ -216,6 +192,19 @@ const BrandIntroSection: React.FC = () => (
   </section>
 )
 
+const categoryCounts: Record<string, number> = {
+  'Spreads & Bakery Fats': 5,
+  'Frozen Vegetables': 48,
+  'Plant-Based Meat & Protein': 16,
+  'Frozen Fruits': 29,
+  'Dairy Alternatives': 5,
+  'Sauces, Mayonnaise & Ketchup': 5,
+  'Ready-to-Eat Meals': 5,
+  'Tea, Coffee & Beverages': 14,
+  'Papad, Namkeen & Snacks': 26,
+  'Canned & Retort Foods': 8,
+}
+
 // ─── Category Range Section ────────────────────────────────────────────────────
 const CategorySection: React.FC = () => (
   <section className="py-20 md:py-28" style={{ backgroundColor: '#F8FAFC' }}>
@@ -225,19 +214,19 @@ const CategorySection: React.FC = () => (
         <div>
           <span
             className="text-xs font-bold uppercase tracking-widest text-[#0B3D91]/70 block mb-2"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             Our Ingredient Portfolio
           </span>
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B3D91] leading-tight"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Explore Our Product Range
           </h2>
           <p
             className="text-slate-500 text-base md:text-lg mt-3 max-w-2xl leading-relaxed"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             Clean-label plant spreads, IQF vegetables, artisanal fruits, and high-protein food solutions crafted for modern consumer kitchens and commercial food makers.
           </p>
@@ -245,7 +234,7 @@ const CategorySection: React.FC = () => (
         <Link
           to="/products"
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-slate-200 text-sm font-bold text-[#0B3D91] hover:bg-[#0B3D91] hover:text-white transition-all duration-300 shadow-sm whitespace-nowrap self-start md:self-auto"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           <span>View All 164 Products</span>
           <span>→</span>
@@ -267,6 +256,7 @@ const CategorySection: React.FC = () => (
               bg={cat.bg}
               image={categoryHeroImages[cat.name] || categoryHeroImages[cat.divisionSlug]}
               subtitle={cat.description}
+              count={categoryCounts[cat.name]}
             />
           </Link>
         ))}
@@ -277,11 +267,11 @@ const CategorySection: React.FC = () => (
         <div>
           <h4
             className="text-xl font-bold text-[#0B3D91]"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Need Custom Formulations or Bulk Ingredient Supply?
           </h4>
-          <p className="text-sm text-slate-500 mt-1" style={{ fontFamily: 'Dosis, sans-serif' }}>
+          <p className="text-sm text-slate-500 mt-1" style={{ fontFamily: 'Inter, sans-serif' }}>
             We work directly with food manufacturers, bakeries, and hotel chains to formulate custom plant-based fat &amp; IQF solutions.
           </p>
         </div>
@@ -318,14 +308,14 @@ const BrandStorySection: React.FC = () => (
             {/* Feature badges */}
             <div
               className="absolute -top-1 right-2 sm:right-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-white text-[#0B3D91] shadow-lg border border-[#0B3D91]/10 flex items-center gap-1.5 z-10"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               <span className="text-sm">🌿</span>
               <span>100% Farm Fresh IQF</span>
             </div>
             <div
               className="absolute -bottom-1 left-2 sm:left-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#7CC576] text-white shadow-lg flex items-center gap-1.5 z-10"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               <span className="text-sm">❄️</span>
               <span>Frozen at Peak Sweetness</span>
@@ -337,7 +327,7 @@ const BrandStorySection: React.FC = () => (
         <div className="flex flex-col gap-6">
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] leading-tight"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Good Food.
             <br />
@@ -345,13 +335,13 @@ const BrandStorySection: React.FC = () => (
           </h2>
           <p
             className="text-[#0B3D91]/70 leading-relaxed text-base md:text-lg"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             At PlantSmör, we believe that eating well shouldn't mean compromising on taste or the planet. Born from a love of Scandinavian simplicity and a passion for plants, every product we create is made with intention — from the ingredients we source to the communities we serve.
           </p>
           <p
             className="text-[#0B3D91]/70 leading-relaxed text-base"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             We're on a mission to make plant-based eating the most delicious choice for everyone — from home cooks to professional chefs.
           </p>
@@ -402,11 +392,11 @@ const ValuesSection: React.FC = () => (
       <div className="text-center mb-12">
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] mb-3"
-          style={{ fontFamily: 'Fredoka, sans-serif' }}
+          style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
         >
           What We Stand For
         </h2>
-        <p className="text-[#0B3D91]/60 max-w-xl mx-auto" style={{ fontFamily: 'Dosis, sans-serif' }}>
+        <p className="text-[#0B3D91]/60 max-w-xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
           Our values aren't just words — they're baked into everything we do.
         </p>
       </div>
@@ -440,19 +430,19 @@ const FoodSolutionsSection: React.FC = () => (
       <div className="text-center mb-12">
         <span
           className="inline-block text-[#FFD438] text-sm font-semibold mb-3 tracking-wider uppercase"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           Foodservice &amp; Bulk Supply
         </span>
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-4"
-          style={{ fontFamily: 'Fredoka, sans-serif' }}
+          style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
         >
           PlantSmör for Food Businesses.
         </h2>
         <p
           className="text-white/70 max-w-2xl mx-auto text-base md:text-lg leading-relaxed"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           From restaurant kitchens and hotels to food manufacturers and retail shelves — PlantSmör provides dependable, high-quality plant-based solutions designed for commercial scale.
         </p>
@@ -468,11 +458,11 @@ const FoodSolutionsSection: React.FC = () => (
             <span className="text-3xl" role="img" aria-label={aud.label}>{aud.icon}</span>
             <h3
               className="text-white font-semibold text-lg"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               {aud.label}
             </h3>
-            <p className="text-white/60 text-sm leading-relaxed" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-white/60 text-sm leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
               {aud.desc}
             </p>
           </div>
@@ -504,7 +494,7 @@ const RecipesSection: React.FC = () => (
         <div>
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] mb-2"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Cook with PlantSmör.
           </h2>
@@ -513,7 +503,7 @@ const RecipesSection: React.FC = () => (
         <Link
           to="/recipes"
           className="hidden md:inline-flex items-center gap-1 text-sm font-semibold text-[#0B3D91] hover:text-[#FFD438] transition-colors duration-200 mt-2"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           All Recipes →
         </Link>
@@ -536,7 +526,7 @@ const RecipesSection: React.FC = () => (
               {/* Time badge */}
               <div
                 className="absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold"
-                style={{ backgroundColor: recipe.color, color: '#0B3D91', fontFamily: 'Dosis, sans-serif' }}
+                style={{ backgroundColor: recipe.color, color: '#0B3D91', fontFamily: 'Inter, sans-serif' }}
               >
                 {recipe.time}
               </div>
@@ -545,13 +535,13 @@ const RecipesSection: React.FC = () => (
             <div className="p-5">
               <span
                 className="inline-block text-xs font-semibold px-3 py-1 rounded-full mb-3"
-                style={{ backgroundColor: recipe.bg, color: '#0B3D91', fontFamily: 'Dosis, sans-serif' }}
+                style={{ backgroundColor: recipe.bg, color: '#0B3D91', fontFamily: 'Inter, sans-serif' }}
               >
                 {recipe.tag}
               </span>
               <h3
                 className="text-[#0B3D91] font-semibold text-lg leading-snug group-hover:text-[#FFD438] transition-colors duration-200"
-                style={{ fontFamily: 'Fredoka, sans-serif' }}
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
               >
                 {recipe.title}
               </h3>
@@ -598,7 +588,7 @@ const InsightsSection: React.FC = () => (
         <div>
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] mb-2"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Stay in the Know.
           </h2>
@@ -607,7 +597,7 @@ const InsightsSection: React.FC = () => (
         <Link
           to="/insights"
           className="hidden md:inline-flex items-center gap-1 text-sm font-semibold text-[#0B3D91] hover:text-[#FFD438] transition-colors duration-200 mt-2"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           All Articles →
         </Link>
@@ -633,26 +623,26 @@ const InsightsSection: React.FC = () => (
               <div className="flex items-center justify-between">
                 <span
                   className="inline-block text-xs font-semibold px-3 py-1 rounded-full"
-                  style={{ backgroundColor: article.bg, color: '#0B3D91', fontFamily: 'Dosis, sans-serif' }}
+                  style={{ backgroundColor: article.bg, color: '#0B3D91', fontFamily: 'Inter, sans-serif' }}
                 >
                   {article.tag}
                 </span>
                 <span
                   className="text-xs text-[#0B3D91]/40"
-                  style={{ fontFamily: 'Dosis, sans-serif' }}
+                  style={{ fontFamily: 'Inter, sans-serif' }}
                 >
                   {article.date}
                 </span>
               </div>
               <h3
                 className="text-[#0B3D91] font-semibold text-base leading-snug group-hover:text-[#0B3D91]/70 transition-colors duration-200"
-                style={{ fontFamily: 'Fredoka, sans-serif' }}
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
               >
                 {article.title}
               </h3>
               <span
                 className="text-xs text-[#0B3D91]/50 font-semibold mt-1"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Read more →
               </span>
@@ -674,13 +664,13 @@ const CTABanner: React.FC = () => (
     <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center flex flex-col items-center gap-6">
       <h2
         className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] leading-tight"
-        style={{ fontFamily: 'Fredoka, sans-serif' }}
+        style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
       >
         Ready to Spread the Change?
       </h2>
       <p
         className="text-[#0B3D91]/80 text-lg max-w-xl"
-        style={{ fontFamily: 'Dosis, sans-serif' }}
+        style={{ fontFamily: 'Inter, sans-serif' }}
       >
         Join thousands of kitchens making the switch to plant-based — one delicious spread at a time.
       </p>
@@ -691,7 +681,7 @@ const CTABanner: React.FC = () => (
         <Link
           to="/find-us"
           className="inline-flex items-center gap-2 px-8 py-4 rounded-full border-2 border-[#0B3D91] text-[#0B3D91] font-semibold text-lg hover:bg-[#0B3D91] hover:text-white transition-all duration-200"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
+          style={{ fontFamily: 'Inter, sans-serif' }}
         >
           Find a Stockist
         </Link>

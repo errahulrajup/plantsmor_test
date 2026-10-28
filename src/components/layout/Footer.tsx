@@ -67,10 +67,10 @@ const Footer: React.FC = () => {
           {/* Brand column */}
           <div className="lg:col-span-2 flex flex-col gap-4">
             <Logo inverse className="h-11 w-auto object-contain" />
-            <p className="text-white/70 text-sm leading-relaxed max-w-xs" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-white/70 text-sm leading-relaxed max-w-xs" style={{ fontFamily: 'Inter, sans-serif' }}>
               Good food. A brighter tomorrow.
             </p>
-            <p className="text-white/50 text-xs leading-relaxed max-w-xs" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-white/50 text-xs leading-relaxed max-w-xs" style={{ fontFamily: 'Inter, sans-serif' }}>
               PlantSmör brings the best of plants to every table, kitchen and food business — naturally delicious, thoughtfully crafted.
             </p>
 
@@ -109,7 +109,7 @@ const Footer: React.FC = () => {
             <div key={section} className="flex flex-col gap-3">
               <h4
                 className="text-white font-semibold text-sm uppercase tracking-wider"
-                style={{ fontFamily: 'Fredoka, sans-serif', letterSpacing: '0.08em' }}
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif', letterSpacing: '0.08em' }}
               >
                 {section}
               </h4>
@@ -119,7 +119,7 @@ const Footer: React.FC = () => {
                     <Link
                       to={link.to}
                       className="text-white/60 text-sm hover:text-white transition-colors duration-200"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       {link.label}
                     </Link>
@@ -138,11 +138,11 @@ const Footer: React.FC = () => {
           <div className="flex-1">
             <h3
               className="text-white text-xl md:text-2xl font-semibold mb-1"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               # stay in the loop
             </h3>
-            <p className="text-white/60 text-sm" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-white/60 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
               New products, recipes, and plant-based inspiration — straight to your inbox.
             </p>
           </div>
@@ -154,12 +154,12 @@ const Footer: React.FC = () => {
               placeholder="your@email.com"
               required
               className="flex-1 md:w-56 px-4 py-3 rounded-full text-sm bg-white/10 border border-white/20 text-white placeholder-white/40 focus:outline-none focus:border-[#FFD438] focus:bg-white/15 transition-all"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             />
             <button
               type="submit"
               className="px-5 py-3 rounded-full text-sm font-bold transition-all duration-200 hover:bg-[#f5c800] active:scale-95 shrink-0"
-              style={{ backgroundColor: '#FFD438', color: '#0B3D91', fontFamily: 'Dosis, sans-serif' }}
+              style={{ backgroundColor: '#FFD438', color: '#0B3D91', fontFamily: 'Inter, sans-serif' }}
             >
               Subscribe
             </button>
@@ -168,7 +168,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom bar */}
         <div className="pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3">
-          <p className="text-white/40 text-xs" style={{ fontFamily: 'Dosis, sans-serif' }}>
+          <p className="text-white/40 text-xs" style={{ fontFamily: 'Inter, sans-serif' }}>
             © PlantSmör. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
@@ -177,7 +177,7 @@ const Footer: React.FC = () => {
                 key={item}
                 to={`/${item.toLowerCase().replace(' ', '-')}`}
                 className="text-white/40 text-xs hover:text-white/70 transition-colors"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 {item}
               </Link>

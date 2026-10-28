@@ -72,19 +72,19 @@ const Insights: React.FC = () => {
           <div className="max-w-3xl">
             <span
               className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFD438]/30 text-[#0B3D91] inline-block mb-3"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Knowledge &amp; Perspectives
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#0B3D91] leading-tight mb-4"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               PlantSmör Insights
             </h1>
             <p
               className="text-lg md:text-xl text-[#0B3D91]/80 leading-relaxed"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Deep dives into plant-based food innovation, sustainable supply chains, and culinary techniques for modern kitchens.
             </p>
@@ -104,7 +104,7 @@ const Insights: React.FC = () => {
                   ? 'bg-[#0B3D91] text-white shadow-sm'
                   : 'bg-[#FFFDF5] text-[#0B3D91] hover:bg-[#FFD438]/20 border border-[#0B3D91]/15'
               }`}
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {cat}
             </button>
@@ -131,28 +131,28 @@ const Insights: React.FC = () => {
                     </span>
                     <span
                       className="absolute bottom-4 left-4 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-white/80 text-[#0B3D91]"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       {item.category}
                     </span>
                   </div>
 
                   <div className="p-6">
-                    <div className="flex items-center justify-between text-xs text-[#0B3D91]/50 mb-3" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <div className="flex items-center justify-between text-xs text-[#0B3D91]/50 mb-3" style={{ fontFamily: 'Inter, sans-serif' }}>
                       <span>{item.date}</span>
                       <span>{item.readTime}</span>
                     </div>
 
                     <h3
                       className="text-lg font-semibold text-[#0B3D91] leading-snug group-hover:text-[#0B3D91]/80 mb-3"
-                      style={{ fontFamily: 'Fredoka, sans-serif' }}
+                      style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                     >
                       {item.title}
                     </h3>
 
                     <p
                       className="text-sm text-[#0B3D91]/70 leading-relaxed"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       {item.excerpt}
                     </p>
@@ -163,14 +163,14 @@ const Insights: React.FC = () => {
                   <div className="pt-4 border-t border-gray-100 flex items-center justify-between">
                     <span
                       className="text-xs font-bold text-[#0B3D91] group-hover:translate-x-1 transition-transform inline-flex items-center gap-1"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       Read full article <span>→</span>
                     </span>
                     <Link
                       to="/products"
                       className="text-xs text-[#0B3D91]/60 hover:text-[#0B3D91]"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       Explore Products
                     </Link>

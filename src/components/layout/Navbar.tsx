@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
                     : 'text-[#0B3D91] hover:bg-[#FFD43822]'
                 }`
               }
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {link.label}
             </NavLink>
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
             style={{
               backgroundColor: '#FFD438',
               color: '#0B3D91',
-              fontFamily: 'Dosis, sans-serif',
+              fontFamily: 'Inter, sans-serif',
             }}
           >
             Find us <span className="text-base">→</span>
@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
                     : 'text-[#0B3D91] hover:bg-[#FFD43822]'
                 }`
               }
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {link.label}
             </NavLink>
@@ -139,7 +139,7 @@ const Navbar: React.FC = () => {
               to="/find-us"
               onClick={() => setMenuOpen(false)}
               className="flex-1 text-center px-4 py-3 rounded-full text-sm font-bold"
-              style={{ backgroundColor: '#FFD438', color: '#0B3D91', fontFamily: 'Dosis, sans-serif' }}
+              style={{ backgroundColor: '#FFD438', color: '#0B3D91', fontFamily: 'Inter, sans-serif' }}
             >
               Find us →
             </Link>

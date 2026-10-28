@@ -13,19 +13,19 @@ const FindUs: React.FC = () => {
           <div className="max-w-3xl">
             <span
               className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFD438]/30 text-[#0B3D91] inline-block mb-3"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Stockists &amp; Retail Availability
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#0B3D91] leading-tight mb-4"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               Where to Find PlantSmör
             </h1>
             <p
               className="text-lg md:text-xl text-[#0B3D91]/80 leading-relaxed"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Locate retail partner stores carrying PlantSmör products, or order directly for commercial foodservice supply.
             </p>
@@ -43,19 +43,19 @@ const FindUs: React.FC = () => {
                 <span className="text-4xl block mb-4">🛒</span>
                 <h2
                   className="text-2xl font-semibold text-[#0B3D91] mb-3"
-                  style={{ fontFamily: 'Fredoka, sans-serif' }}
+                  style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                 >
                   Retail Supermarkets &amp; Grocers
                 </h2>
-                <p className="text-[#0B3D91]/75 text-sm md:text-base leading-relaxed mb-6" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                <p className="text-[#0B3D91]/75 text-sm md:text-base leading-relaxed mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
                   PlantSmör spreads and frozen vegetable selections are steadily arriving at selected premium grocers and regional supermarkets.
                 </p>
 
                 <div className="p-4 rounded-2xl bg-[#FFFDF5] border border-[#0B3D91]/10 mb-6">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                     Store Locator Status
                   </h4>
-                  <p className="text-xs text-[#0B3D91]/70" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <p className="text-xs text-[#0B3D91]/70" style={{ fontFamily: 'Inter, sans-serif' }}>
                     National store distribution rollout in progress. If your favorite local market doesn't stock PlantSmör yet, let their store manager know!
                   </p>
                 </div>
@@ -76,19 +76,19 @@ const FindUs: React.FC = () => {
                 <span className="text-4xl block mb-4">📦</span>
                 <h2
                   className="text-2xl font-semibold text-[#0B3D91] mb-3"
-                  style={{ fontFamily: 'Fredoka, sans-serif' }}
+                  style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                 >
                   Commercial &amp; Foodservice Supply
                 </h2>
-                <p className="text-[#0B3D91]/75 text-sm md:text-base leading-relaxed mb-6" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                <p className="text-[#0B3D91]/75 text-sm md:text-base leading-relaxed mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
                   Are you a restaurant, cloud kitchen, bakery, caterer, or distributor? We deliver bulk cases and wholesale pallets directly.
                 </p>
 
                 <div className="p-4 rounded-2xl bg-[#FFFDF5] border border-[#0B3D91]/10 mb-6">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-[#0B3D91] mb-2" style={{ fontFamily: 'Inter, sans-serif' }}>
                     B2B Order Inquiries
                   </h4>
-                  <p className="text-xs text-[#0B3D91]/70" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <p className="text-xs text-[#0B3D91]/70" style={{ fontFamily: 'Inter, sans-serif' }}>
                     Direct dispatch and scheduled regional supply available across multiple commercial product categories.
                   </p>
                 </div>

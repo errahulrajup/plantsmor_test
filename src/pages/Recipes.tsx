@@ -94,19 +94,19 @@ const Recipes: React.FC = () => {
           <div className="max-w-3xl">
             <span
               className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFD438]/30 text-[#0B3D91] inline-block mb-3"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Kitchen Inspiration
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#0B3D91] leading-tight mb-4"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               Cook with PlantSmör
             </h1>
             <p
               className="text-lg md:text-xl text-[#0B3D91]/80 leading-relaxed"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Simple everyday meals and chef-tested recipes showcasing how PlantSmör performs in cooking, sautéing, and baking.
             </p>
@@ -126,7 +126,7 @@ const Recipes: React.FC = () => {
                   ? 'bg-[#0B3D91] text-white shadow-sm'
                   : 'bg-[#FFFDF5] text-[#0B3D91] hover:bg-[#FFD438]/20 border border-[#0B3D91]/15'
               }`}
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {cat}
             </button>
@@ -154,14 +154,14 @@ const Recipes: React.FC = () => {
                   <div className="absolute top-4 right-4 flex gap-2">
                     <span
                       className="text-xs font-bold px-3 py-1 rounded-full bg-white text-[#0B3D91] shadow-xs"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       ⏱ {recipe.time}
                     </span>
                   </div>
                   <span
                     className="absolute bottom-4 left-4 text-xs font-semibold px-2.5 py-0.5 rounded-full bg-white/80 text-[#0B3D91]"
-                    style={{ fontFamily: 'Dosis, sans-serif' }}
+                    style={{ fontFamily: 'Inter, sans-serif' }}
                   >
                     {recipe.category}
                   </span>
@@ -172,13 +172,13 @@ const Recipes: React.FC = () => {
                   <div>
                     <h3
                       className="text-xl font-semibold text-[#0B3D91] leading-snug group-hover:text-[#0B3D91]/80 mb-2"
-                      style={{ fontFamily: 'Fredoka, sans-serif' }}
+                      style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
                     >
                       {recipe.title}
                     </h3>
                     <p
                       className="text-sm text-[#0B3D91]/75 leading-relaxed mb-4"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       {recipe.desc}
                     </p>
@@ -186,7 +186,7 @@ const Recipes: React.FC = () => {
                     <div className="pt-3 border-t border-gray-100">
                       <span
                         className="text-[11px] font-bold uppercase tracking-wider text-[#0B3D91]/50 block mb-2"
-                        style={{ fontFamily: 'Dosis, sans-serif' }}
+                        style={{ fontFamily: 'Inter, sans-serif' }}
                       >
                         Key Ingredients
                       </span>
@@ -195,7 +195,7 @@ const Recipes: React.FC = () => {
                           <span
                             key={i}
                             className="text-xs px-2 py-0.5 rounded-md bg-[#FFFDF5] border border-[#0B3D91]/10 text-[#0B3D91]/75"
-                            style={{ fontFamily: 'Dosis, sans-serif' }}
+                            style={{ fontFamily: 'Inter, sans-serif' }}
                           >
                             {ing}
                           </span>
@@ -210,13 +210,13 @@ const Recipes: React.FC = () => {
                   </div>
 
                   <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
-                    <span className="text-xs text-[#0B3D91]/60" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                    <span className="text-xs text-[#0B3D91]/60" style={{ fontFamily: 'Inter, sans-serif' }}>
                       Serves {recipe.servings}
                     </span>
                     <Link
                       to="/products"
                       className="text-xs font-bold text-[#0B3D91] hover:text-[#0B3D91]/70 flex items-center gap-1"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       View products used →
                     </Link>

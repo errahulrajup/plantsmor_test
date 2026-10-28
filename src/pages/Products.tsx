@@ -86,19 +86,19 @@ const Products: React.FC = () => {
           <div className="max-w-3xl">
             <span
               className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFD438]/30 text-[#0B3D91] inline-block mb-3"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Master Product Portfolio — {masterProducts.length} Products
             </span>
             <h1
               className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#0B3D91] leading-tight mb-4"
-              style={{ fontFamily: 'Fredoka, sans-serif' }}
+              style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             >
               PlantSmör Catalogue
             </h1>
             <p
               className="text-lg md:text-xl text-[#0B3D91]/80 leading-relaxed"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               Explore our complete portfolio across {divisions.length} core food divisions — frozen produce, plant-based proteins, sauces, beverages, bakery fats, ready meals, and pantry staples.
             </p>
@@ -118,7 +118,7 @@ const Products: React.FC = () => {
                   ? 'bg-[#0B3D91] text-white shadow-sm'
                   : 'bg-white text-[#0B3D91] hover:bg-[#FFD438]/20 border border-[#0B3D91]/15'
               }`}
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               All Divisions ({masterProducts.length})
             </button>
@@ -131,7 +131,7 @@ const Products: React.FC = () => {
                     ? 'bg-[#0B3D91] text-white shadow-sm'
                     : 'bg-white text-[#0B3D91] hover:bg-[#FFD438]/20 border border-[#0B3D91]/15'
                 }`}
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 <span>{div.emoji}</span>
                 <span>{div.name}</span>
@@ -151,7 +151,7 @@ const Products: React.FC = () => {
           {/* Sub-Row: Categories of Selected Division (if a division is active) */}
           {selectedDivision && (
             <div className="flex items-center gap-1.5 overflow-x-auto pt-2 pb-1 scrollbar-none border-t border-[#0B3D91]/10 mt-2">
-              <span className="text-xs font-bold text-[#0B3D91]/50 uppercase tracking-wider mr-1 shrink-0" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              <span className="text-xs font-bold text-[#0B3D91]/50 uppercase tracking-wider mr-1 shrink-0" style={{ fontFamily: 'Inter, sans-serif' }}>
                 Categories:
               </span>
               <button
@@ -161,7 +161,7 @@ const Products: React.FC = () => {
                     ? 'bg-[#FFD438] text-[#0B3D91] font-bold'
                     : 'bg-white/60 text-[#0B3D91] hover:bg-white border border-[#0B3D91]/10'
                 }`}
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 All in {selectedDivision.name} ({selectedDivision.productCount})
               </button>
@@ -174,7 +174,7 @@ const Products: React.FC = () => {
                       ? 'bg-[#FFD438] text-[#0B3D91] font-bold'
                       : 'bg-white/60 text-[#0B3D91] hover:bg-white border border-[#0B3D91]/10'
                   }`}
-                  style={{ fontFamily: 'Dosis, sans-serif' }}
+                  style={{ fontFamily: 'Inter, sans-serif' }}
                 >
                   {cat.name} ({cat.count})
                 </button>
@@ -189,7 +189,7 @@ const Products: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
           {/* Active Filter Description */}
           <div>
-            <p className="text-sm font-semibold text-[#0B3D91]" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            <p className="text-sm font-semibold text-[#0B3D91]" style={{ fontFamily: 'Inter, sans-serif' }}>
               Showing <span className="font-bold text-lg text-[#0B3D91]">{filteredProducts.length}</span>{' '}
               {filteredProducts.length === 1 ? 'product' : 'products'}
               {selectedDivision && (
@@ -213,7 +213,7 @@ const Products: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search by English or Hindi name..."
                 className="w-full px-4 py-2.5 pl-9 rounded-full text-sm bg-white border border-[#0B3D91]/20 text-[#0B3D91] placeholder-[#0B3D91]/40 focus:outline-none focus:border-[#0B3D91] transition-all shadow-xs"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               />
               <svg
                 className="absolute left-3 top-3 w-4 h-4 text-[#0B3D91]/50"
@@ -241,7 +241,7 @@ const Products: React.FC = () => {
                   handleDivisionSelect('all')
                 }}
                 className="text-xs font-bold text-[#0B3D91] hover:underline cursor-pointer whitespace-nowrap"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Clear all ✕
               </button>
@@ -258,13 +258,13 @@ const Products: React.FC = () => {
               <span className="text-5xl block mb-4">🔍</span>
               <h2
                 className="text-2xl font-semibold text-[#0B3D91] mb-2"
-                style={{ fontFamily: 'Fredoka, sans-serif' }}
+                style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
               >
                 No products found
               </h2>
               <p
                 className="text-[#0B3D91]/70 text-sm mb-6"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Try searching for a different keyword or selecting a different division.
               </p>
@@ -274,7 +274,7 @@ const Products: React.FC = () => {
                   handleDivisionSelect('all')
                 }}
                 className="px-6 py-2.5 rounded-full text-sm font-semibold bg-[#FFD438] text-[#0B3D91] hover:bg-[#f5c800] cursor-pointer"
-                style={{ fontFamily: 'Dosis, sans-serif' }}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Show All {masterProducts.length} Products
               </button>
@@ -290,7 +290,7 @@ const Products: React.FC = () => {
               {/* Pagination Controls */}
               {totalPages > 1 && (
                 <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#0B3D91]/10">
-                  <p className="text-xs text-[#0B3D91]/60" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                  <p className="text-xs text-[#0B3D91]/60" style={{ fontFamily: 'Inter, sans-serif' }}>
                     Showing page <strong className="text-[#0B3D91]">{currentPage}</strong> of{' '}
                     <strong className="text-[#0B3D91]">{totalPages}</strong> ({filteredProducts.length} items total)
                   </p>
@@ -300,7 +300,7 @@ const Products: React.FC = () => {
                       disabled={currentPage === 1}
                       onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
                       className="px-3.5 py-1.5 rounded-lg text-xs font-bold border border-[#0B3D91]/20 text-[#0B3D91] hover:bg-[#FFD438]/20 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-all"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       &larr; Previous
                     </button>
@@ -327,7 +327,7 @@ const Products: React.FC = () => {
                               ? 'bg-[#0B3D91] text-white'
                               : 'bg-white border border-[#0B3D91]/15 text-[#0B3D91] hover:bg-[#FFD438]/20'
                           }`}
-                          style={{ fontFamily: 'Dosis, sans-serif' }}
+                          style={{ fontFamily: 'Inter, sans-serif' }}
                         >
                           {pageNum}
                         </button>
@@ -338,7 +338,7 @@ const Products: React.FC = () => {
                       disabled={currentPage === totalPages}
                       onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
                       className="px-3.5 py-1.5 rounded-lg text-xs font-bold border border-[#0B3D91]/20 text-[#0B3D91] hover:bg-[#FFD438]/20 disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer transition-all"
-                      style={{ fontFamily: 'Dosis, sans-serif' }}
+                      style={{ fontFamily: 'Inter, sans-serif' }}
                     >
                       Next &rarr;
                     </button>
@@ -356,19 +356,19 @@ const Products: React.FC = () => {
         <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center">
           <span
             className="text-[#FFD438] text-xs font-bold uppercase tracking-wider inline-block mb-3"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             Commercial Supply &amp; Custom Formulations
           </span>
           <h2
             className="text-3xl md:text-4xl font-semibold text-white mb-4"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
           >
             Supplying Over 2,200 Food Products for Modern Food Businesses
           </h2>
           <p
             className="text-white/80 text-base md:text-lg max-w-2xl mx-auto mb-8 leading-relaxed"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            style={{ fontFamily: 'Inter, sans-serif' }}
           >
             We supply bulk formats, private formulations, and institutional specifications for restaurants, food processors, retail chains, and distributors.
           </p>
@@ -396,27 +396,27 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
   const themeColor = divisionMeta?.color || '#0B3D91'
 
   return (
-    <div className="bg-white rounded-3xl p-5 sm:p-6 border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_rgba(11,61,145,0.08)] hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
+    <div className="group relative flex flex-col justify-between h-full p-4 sm:p-5 rounded-3xl transition-all duration-300 cursor-pointer overflow-visible hover:-translate-y-2 hover:bg-white/60 hover:shadow-[0_16px_36px_rgba(11,61,145,0.06)] border border-transparent hover:border-slate-200/50">
       <div>
         {/* Top Tag & ID */}
         <div className="flex items-center justify-between gap-2 mb-2">
           <span
-            className="text-[11px] font-bold uppercase tracking-wider text-[#0B3D91]/75 px-3 py-1 rounded-full bg-[#0B3D91]/5 truncate max-w-[70%]"
-            style={{ fontFamily: 'Dosis, sans-serif' }}
+            className="text-[11px] font-semibold tracking-wider uppercase text-[#0B3D91] px-3 py-1 rounded-full bg-white/90 backdrop-blur-md border border-slate-200/70 shadow-2xs truncate max-w-[70%]"
+            style={{ fontFamily: 'Inter, sans-serif' }}
             title={product.category}
           >
             {product.category}
           </span>
-          <span className="text-[11px] font-bold font-mono px-2 py-0.5 rounded-md text-amber-700 bg-amber-50 border border-amber-200/60">
+          <span className="text-[11px] font-bold font-mono px-2 py-0.5 rounded-md text-amber-800 bg-amber-50/90 border border-amber-200/60 shadow-2xs">
             #{product.id}
           </span>
         </div>
 
-        {/* BADA Signature Organic Fluid Blob Stage */}
-        <div className="relative my-4 w-full h-48 sm:h-52 flex items-center justify-center overflow-visible">
-          {/* Organic Fluid Blob Background */}
+        {/* Spacious Stage: SINGLE fluid organic blob + MAXIMUM SIZE floating image */}
+        <div className="relative my-3 w-full h-52 sm:h-56 flex items-center justify-center overflow-visible">
+          {/* Single Organic Fluid Blob Background (Directly on canvas, no box-in-a-box) */}
           <div
-            className="absolute inset-1 sm:inset-2 rounded-[42%_58%_70%_30%/45%_52%_48%_55%] opacity-90 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-3 shadow-inner"
+            className="absolute inset-0 rounded-[44%_56%_68%_32%/42%_48%_52%_58%] opacity-85 transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 shadow-sm"
             style={{ backgroundColor: `${themeColor}18` }}
           />
 
@@ -425,14 +425,14 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
               src={productImage}
               alt={product.name}
               loading="lazy"
-              className="relative z-10 w-36 sm:w-44 h-36 sm:h-44 object-contain drop-shadow-xl group-hover:scale-110 transition-transform duration-300 select-none"
+              className="relative z-10 w-44 sm:w-52 h-44 sm:h-52 object-contain drop-shadow-xl group-hover:scale-110 transition-transform duration-300 select-none"
             />
           ) : (
             <div className="relative z-10 flex flex-col items-center justify-center">
               <span
                 role="img"
                 aria-label={product.name}
-                className="text-5xl sm:text-6xl select-none drop-shadow-md group-hover:scale-110 transition-transform duration-300"
+                className="text-6xl sm:text-7xl select-none drop-shadow-md group-hover:scale-110 transition-transform duration-300"
               >
                 {divisionMeta?.emoji || '🌱'}
               </span>
@@ -441,10 +441,10 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
         </div>
 
         {/* Product Information */}
-        <div className="flex flex-col gap-1.5 pt-2 border-t border-slate-100 text-center">
+        <div className="flex flex-col gap-1 pt-2.5 border-t border-slate-200/50 text-center">
           <h3
             className="text-base sm:text-lg font-bold text-[#0B3D91] leading-snug group-hover:text-[#FF8A3D] transition-colors line-clamp-1"
-            style={{ fontFamily: 'Fredoka, sans-serif' }}
+            style={{ fontFamily: 'Plus Jakarta Sans, sans-serif' }}
             title={product.name}
           >
             {product.name}
@@ -454,7 +454,7 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
           {product.hindiName && (
             <p
               className="text-xs sm:text-sm font-medium text-slate-500 truncate"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              style={{ fontFamily: 'Inter, sans-serif' }}
               title={product.hindiName}
             >
               {product.hindiName}
@@ -464,8 +464,8 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
           {/* Specification Badge */}
           <div className="mt-2 flex items-center justify-center">
             <span
-              className="text-[10px] font-bold tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 truncate max-w-full"
-              style={{ fontFamily: 'Dosis, sans-serif' }}
+              className="text-[10px] font-semibold tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-slate-100/80 text-slate-600 truncate max-w-full"
+              style={{ fontFamily: 'Inter, sans-serif' }}
             >
               {product.subCategory || 'Pure Formulation'}
             </span>
