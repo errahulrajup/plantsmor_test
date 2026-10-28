@@ -18,7 +18,9 @@ export const categoryHeroImages: Record<string, string | undefined> = {
   'Frozen Vegetables': getProductAsset('green-peas.png'),
   'Plant-Based Meat & Protein': getProductAsset('soya-chaap-tikka.png'),
   'Frozen Fruits': getProductAsset('mango.png'),
-  'Dairy Alternatives & Desserts': getProductAsset('ice-cream.png'),
+  'Dairy Alternatives': getProductAsset('plant-cheese.png'),
+  'Dairy Alternatives & Desserts': getProductAsset('plant-cheese.png'),
+  'Sauces, Mayonnaise & Ketchup': getProductAsset('mayonnaise.png'),
   'Sauces, Dips & Soups': getProductAsset('mayonnaise.png'),
   'Ready-to-Eat Meals': getProductAsset('dal-makhani.png'),
   'Tea, Coffee & Beverages': getProductAsset('coffee-beans.png'),
@@ -31,7 +33,7 @@ export const categoryHeroImages: Record<string, string | undefined> = {
   'margarine-oils-bakery-fats': getProductAsset('plant-butter.png'),
   'frozen-vegetables-fruits': getProductAsset('green-peas.png'),
   'plant-based-meat-protein': getProductAsset('soya-chaap-tikka.png'),
-  'plant-based-alternatives-dairy-style': getProductAsset('ice-cream.png'),
+  'plant-based-alternatives-dairy-style': getProductAsset('plant-cheese.png'),
   'sauces-condiments-dressings-soups': getProductAsset('mayonnaise.png'),
   'ready-to-eat-rte-retort-meals': getProductAsset('dal-makhani.png'),
   'tea-coffee-hot-beverages': getProductAsset('coffee-beans.png'),
@@ -133,9 +135,8 @@ const exactProductMap: Record<string, string> = {
   // ─── Margarine & Bakery Fats (1-to-1 Genuine) ─────────────
   'PlantSmör Table Margarine': 'plant-butter.png',
 
-  // ─── Dairy Alternatives & Desserts (1-to-1 Genuine) ──────
+  // ─── Dairy Alternatives (1-to-1 Genuine) ─────────────────
   'PlantSmör Plant-Based Burger Slices': 'plant-cheese.png',
-  'PlantSmör Vanilla Frozen Dessert': 'ice-cream.png',
 
   // ─── Plant-Based Meat & Protein (1-to-1 Genuine) ──────────
   'PlantSmör Soya Chaap': 'soya-chaap-tikka.png',

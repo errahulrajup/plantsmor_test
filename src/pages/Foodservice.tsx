@@ -306,7 +306,7 @@ const Foodservice: React.FC = () => {
                       <option>Plant-Based Spreads (Bulk Tubs / Blocks)</option>
                       <option>Frozen Vegetables (IQF Bulk)</option>
                       <option>Plant-Based Meat Alternatives</option>
-                      <option>Cooking Oils & Fats</option>
+                      <option>Margarine &amp; Bakery Fats</option>
                       <option>Custom Food Formulation</option>
                       <option>Full Portfolio Supply</option>
                     </select>

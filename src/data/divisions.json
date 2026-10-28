@@ -17,9 +17,9 @@
     ]
   },
   {
-    "name": "Sauces, Condiments, Dressings & Soups",
+    "name": "Sauces & Condiments",
     "slug": "sauces-condiments-dressings-soups",
-    "productCount": 20,
+    "productCount": 5,
     "categories": [
       {
         "name": "Mayonnaise",
@@ -30,23 +30,13 @@
         "name": "Ketchup & Tomato Condiments",
         "slug": "ketchup-tomato-condiments",
         "count": 2
-      },
-      {
-        "name": "Indian Chutneys",
-        "slug": "indian-chutneys",
-        "count": 9
-      },
-      {
-        "name": "Soups, Stocks & Broths",
-        "slug": "soups-stocks-broths",
-        "count": 6
       }
     ]
   },
   {
-    "name": "Margarine, Oils & Bakery Fats",
+    "name": "Margarine & Bakery Fats",
     "slug": "margarine-oils-bakery-fats",
-    "productCount": 25,
+    "productCount": 5,
     "categories": [
       {
         "name": "Margarine",
@@ -57,28 +47,18 @@
         "name": "Fat Spreads",
         "slug": "fat-spreads",
         "count": 1
-      },
-      {
-        "name": "Edible Oils",
-        "slug": "edible-oils",
-        "count": 20
       }
     ]
   },
   {
     "name": "Plant-Based Alternatives (Dairy-Style)",
     "slug": "plant-based-alternatives-dairy-style",
-    "productCount": 26,
+    "productCount": 5,
     "categories": [
       {
         "name": "Plant-Based Cheese",
         "slug": "plant-based-cheese",
         "count": 3
-      },
-      {
-        "name": "Plant-Based Frozen Desserts",
-        "slug": "plant-based-frozen-desserts",
-        "count": 21
       },
       {
         "name": "Tofu",
