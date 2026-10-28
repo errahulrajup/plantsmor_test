@@ -414,10 +414,14 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
 
         {/* Spacious Stage: SINGLE fluid organic blob + MAXIMUM SIZE floating image */}
         <div className="relative my-3 w-full h-52 sm:h-56 flex items-center justify-center overflow-visible">
-          {/* Single Organic Fluid Blob Background (Directly on canvas, no box-in-a-box) */}
+          {/* Single Organic Fluid Blob Background (Breathing organic morph) */}
           <div
-            className="absolute inset-0 rounded-[44%_56%_68%_32%/42%_48%_52%_58%] opacity-85 transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 shadow-sm"
-            style={{ backgroundColor: `${themeColor}18` }}
+            className="absolute inset-0 blob-morph opacity-85 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 shadow-xs"
+            style={{
+              backgroundColor: `${themeColor}18`,
+              animationDuration: `${7 + ((product.id % 4) * 1.5)}s`,
+              animationDelay: `-${(product.id % 3) * 0.9}s`,
+            }}
           />
 
           {productImage ? (

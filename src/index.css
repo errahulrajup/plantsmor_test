@@ -25,3 +25,39 @@ h1, h2, h3, h4, h5, h6 {
 html {
   scroll-behavior: smooth;
 }
+
+/* Hide scrollbar for carousel */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ── Organic Blob Morphing Animation ──────────────────────────────────── */
+@keyframes blobMorph {
+  0%   { border-radius: 44% 56% 68% 32% / 42% 48% 52% 58%; }
+  25%  { border-radius: 60% 40% 50% 50% / 55% 40% 60% 45%; }
+  50%  { border-radius: 38% 62% 44% 56% / 48% 62% 38% 52%; }
+  75%  { border-radius: 55% 45% 56% 44% / 50% 55% 45% 50%; }
+  100% { border-radius: 44% 56% 68% 32% / 42% 48% 52% 58%; }
+}
+
+.blob-morph {
+  animation: blobMorph 8s ease-in-out infinite;
+}
+
+/* ── Marquee / Quality Ticker ─────────────────────────────────────────── */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

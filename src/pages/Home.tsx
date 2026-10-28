@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../components/ui/Button'
 import CategoryCard from '../components/ui/CategoryCard'
@@ -8,6 +8,8 @@ import DotPattern from '../components/ui/DotPattern'
 import { activeCategories } from '../data/categories'
 import { categoryHeroImages } from '../data/productImages'
 import greenPeasBlob from '../assets/products/green-peas.png'
+import QualityTicker from '../components/home/QualityTicker'
+import ProcessSection from '../components/home/ProcessSection'
 
 // ─── Hero Section ──────────────────────────────────────────────────────────────
 const HeroSection: React.FC = () => (
@@ -105,7 +107,7 @@ const HeroSection: React.FC = () => (
         <div className="relative w-full max-w-lg flex items-center justify-center group py-6">
           {/* Single Signature Organic Fluid Blob (Directly on canvas) */}
           <div
-            className="absolute inset-0 rounded-[44%_56%_68%_32%/42%_48%_52%_58%] opacity-90 transition-transform duration-700 group-hover:rotate-3 group-hover:scale-105 shadow-sm"
+            className="absolute inset-0 blob-morph opacity-90 transition-transform duration-700 group-hover:rotate-3 group-hover:scale-105 shadow-sm"
             style={{ backgroundColor: '#FFF9D6', minHeight: '360px' }}
           />
 
@@ -241,8 +243,36 @@ const CategorySection: React.FC = () => (
         </Link>
       </div>
 
-      {/* BADA Signature Blob Cards Grid (3 Columns, Spacious & Visible) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+      {/* Category Showcase: Mobile Horizontal Swipe Carousel & Desktop 3-Col Grid */}
+      {/* Mobile Swipe Notice */}
+      <div className="lg:hidden flex items-center justify-between mb-3 px-1 text-xs text-slate-500 font-medium" style={{ fontFamily: 'Inter, sans-serif' }}>
+        <span>Swipe categories</span>
+        <span className="text-[#0B3D91] font-semibold">10 Categories →</span>
+      </div>
+
+      {/* Mobile Horizontal Swipe Container */}
+      <div className="lg:hidden flex gap-5 overflow-x-auto snap-x snap-mandatory pb-6 -mx-4 px-4 scrollbar-none">
+        {activeCategories.map((cat) => (
+          <Link
+            key={cat.id}
+            to={cat.divisionSlug === 'foodservice' ? '/foodservice' : `/products?division=${cat.divisionSlug}`}
+            className="snap-center shrink-0 w-[84vw] sm:w-[52vw] h-full"
+          >
+            <CategoryCard
+              name={cat.name}
+              emoji={cat.emoji}
+              color={cat.color}
+              bg={cat.bg}
+              image={categoryHeroImages[cat.name] || categoryHeroImages[cat.divisionSlug]}
+              subtitle={cat.description}
+              count={categoryCounts[cat.name]}
+            />
+          </Link>
+        ))}
+      </div>
+
+      {/* Desktop 3-Column Grid */}
+      <div className="hidden lg:grid grid-cols-3 gap-6 md:gap-8">
         {activeCategories.map((cat) => (
           <Link
             key={cat.id}
@@ -695,8 +725,10 @@ const Home: React.FC = () => {
   return (
     <main>
       <HeroSection />
+      <QualityTicker />
       <BrandIntroSection />
       <CategorySection />
+      <ProcessSection />
       <BrandStorySection />
       <ValuesSection />
       <FoodSolutionsSection />
