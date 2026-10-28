@@ -5,7 +5,7 @@ import DotPattern from '../components/ui/DotPattern'
 import Button from '../components/ui/Button'
 import { getProductImage } from '../data/productImages'
 
-const ITEMS_PER_PAGE = 36
+const ITEMS_PER_PAGE = 24
 
 const Products: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -281,7 +281,7 @@ const Products: React.FC = () => {
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-3.5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {paginatedProducts.map((p) => (
                   <MasterProductCard key={p.id} product={p} />
                 ))}
@@ -396,34 +396,44 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
   const themeColor = divisionMeta?.color || '#0B3D91'
 
   return (
-    <div className="bg-white rounded-3xl p-4 border border-[#0B3D91]/10 hover:border-[#FFD438] hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group relative">
+    <div className="bg-white rounded-3xl p-5 sm:p-6 border border-slate-100 shadow-[0_4px_24px_rgba(0,0,0,0.03)] hover:shadow-[0_20px_40px_rgba(11,61,145,0.08)] hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
       <div>
-        {/* Category Pill */}
-        <div className="mb-1">
+        {/* Top Tag & ID */}
+        <div className="flex items-center justify-between gap-2 mb-2">
           <span
-            className="text-[11px] font-semibold text-[#0B3D91]/75 px-2.5 py-0.5 rounded-full bg-[#0B3D91]/5 inline-block truncate max-w-full"
+            className="text-[11px] font-bold uppercase tracking-wider text-[#0B3D91]/75 px-3 py-1 rounded-full bg-[#0B3D91]/5 truncate max-w-[70%]"
             style={{ fontFamily: 'Dosis, sans-serif' }}
             title={product.category}
           >
             {product.category}
           </span>
+          <span className="text-[11px] font-bold font-mono px-2 py-0.5 rounded-md text-amber-700 bg-amber-50 border border-amber-200/60">
+            #{product.id}
+          </span>
         </div>
 
-        {/* Visual Stage — Large, Seamless & Floating (Homepage Style) */}
-        <div className="relative my-2.5 h-32 sm:h-36 flex items-center justify-center overflow-visible">
+        {/* BADA Signature Organic Fluid Blob Stage */}
+        <div className="relative my-4 w-full h-48 sm:h-52 flex items-center justify-center overflow-visible">
+          {/* Organic Fluid Blob Background */}
+          <div
+            className="absolute inset-1 sm:inset-2 rounded-[42%_58%_70%_30%/45%_52%_48%_55%] opacity-90 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-3 shadow-inner"
+            style={{ backgroundColor: `${themeColor}18` }}
+          />
+
           {productImage ? (
             <img
               src={productImage}
               alt={product.name}
               loading="lazy"
-              className="w-full h-full max-h-32 sm:max-h-36 object-contain scale-110 group-hover:scale-120 transition-transform duration-300 select-none drop-shadow-md"
+              className="relative z-10 w-36 sm:w-44 h-36 sm:h-44 object-contain drop-shadow-xl group-hover:scale-110 transition-transform duration-300 select-none"
             />
           ) : (
-            <div
-              className="w-20 h-20 sm:w-22 sm:h-22 rounded-full flex items-center justify-center text-4xl sm:text-5xl transition-transform duration-300 group-hover:scale-110 shadow-xs"
-              style={{ backgroundColor: `${themeColor}18` }}
-            >
-              <span role="img" aria-label={product.name} className="select-none drop-shadow-xs">
+            <div className="relative z-10 flex flex-col items-center justify-center">
+              <span
+                role="img"
+                aria-label={product.name}
+                className="text-5xl sm:text-6xl select-none drop-shadow-md group-hover:scale-110 transition-transform duration-300"
+              >
                 {divisionMeta?.emoji || '🌱'}
               </span>
             </div>
@@ -431,25 +441,35 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
         </div>
 
         {/* Product Information */}
-        <div className="flex flex-col gap-1 mt-1 text-center">
+        <div className="flex flex-col gap-1.5 pt-2 border-t border-slate-100 text-center">
           <h3
-            className="text-xs sm:text-sm font-semibold text-[#0B3D91] leading-snug group-hover:text-[#0B3D91]/80 transition-colors line-clamp-2 min-h-[2.3rem] flex items-center justify-center"
+            className="text-base sm:text-lg font-bold text-[#0B3D91] leading-snug group-hover:text-[#FF8A3D] transition-colors line-clamp-1"
             style={{ fontFamily: 'Fredoka, sans-serif' }}
             title={product.name}
           >
             {product.name}
           </h3>
 
-          {/* Hindi Name — Clean, Modern subtitle */}
+          {/* Hindi Name */}
           {product.hindiName && (
             <p
-              className="text-[11px] sm:text-xs font-medium text-[#0B3D91]/65 truncate"
+              className="text-xs sm:text-sm font-medium text-slate-500 truncate"
               style={{ fontFamily: 'Dosis, sans-serif' }}
               title={product.hindiName}
             >
               {product.hindiName}
             </p>
           )}
+
+          {/* Specification Badge */}
+          <div className="mt-2 flex items-center justify-center">
+            <span
+              className="text-[10px] font-bold tracking-wider uppercase px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 truncate max-w-full"
+              style={{ fontFamily: 'Dosis, sans-serif' }}
+            >
+              {product.subCategory || 'Pure Formulation'}
+            </span>
+          </div>
         </div>
       </div>
     </div>

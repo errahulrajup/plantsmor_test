@@ -5,137 +5,164 @@ import CategoryCard from '../components/ui/CategoryCard'
 import ValueCard from '../components/ui/ValueCard'
 import WaveShape from '../components/ui/WaveShape'
 import DotPattern from '../components/ui/DotPattern'
-import ProductCard from '../components/ui/ProductCard'
 import { activeCategories } from '../data/categories'
-import { products } from '../data/products'
 import { categoryHeroImages } from '../data/productImages'
 import greenPeasBlob from '../assets/products/green-peas.png'
 
 // ─── Hero Section ──────────────────────────────────────────────────────────────
 const HeroSection: React.FC = () => (
   <section
-    className="relative min-h-screen flex items-center overflow-hidden pt-20"
-    style={{ backgroundColor: '#FFFDF5' }}
+    className="relative min-h-[92vh] flex items-center overflow-hidden pt-24 pb-16"
+    style={{ backgroundColor: '#FCFBF7' }}
   >
-    {/* Yellow organic blob — right side */}
-    <div className="absolute right-0 top-0 w-[65%] h-full pointer-events-none">
+    {/* Subtle architectural background accents */}
+    <div className="absolute right-0 top-0 w-[55%] h-full pointer-events-none opacity-40">
       <WaveShape
-        className="absolute inset-0 w-full h-full"
-        color="#FFD438"
-        opacity={1}
+        className="absolute inset-0 w-full h-full scale-110"
+        color="#FFF3B8"
+        opacity={0.7}
       />
-      {/* Subtle dot overlay on blob */}
-      <DotPattern color="#0B3D91" opacity={0.04} size={4} spacing={22} />
+      <DotPattern color="#0B3D91" opacity={0.03} size={4} spacing={26} />
     </div>
 
-    {/* Decorative small circles */}
-    <div className="absolute top-28 right-[38%] w-5 h-5 rounded-full bg-[#FF6B8B] opacity-70" />
-    <div className="absolute bottom-32 right-[55%] w-3 h-3 rounded-full bg-[#7EC8F8] opacity-80" />
-    <div className="absolute top-1/2 right-[20%] w-4 h-4 rounded-full bg-[#7CC576] opacity-60" />
+    <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      {/* Left: Clean Editorial Content (7 cols) */}
+      <div className="lg:col-span-7 flex flex-col justify-center gap-6">
+        {/* Kicker badge */}
+        <div className="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-[#0B3D91]/5 border border-[#0B3D91]/10">
+          <span className="w-2 h-2 rounded-full bg-[#7CC576] animate-pulse" />
+          <span
+            className="text-xs font-bold uppercase tracking-widest text-[#0B3D91]"
+            style={{ fontFamily: 'Dosis, sans-serif' }}
+          >
+            Sustainable Plant-Based Solutions
+          </span>
+        </div>
 
-    <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-10 py-16 lg:py-24">
-      {/* Left: Text content */}
-      <div className="flex flex-col justify-center gap-6">
         {/* H1 */}
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl font-semibold text-[#0B3D91] leading-tight"
+          className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0B3D91] leading-[1.12] tracking-tight"
           style={{ fontFamily: 'Fredoka, sans-serif' }}
         >
-          Good Food for a Brighter Tomorrow.
+          Pure Ingredients.
+          <br />
+          <span className="text-[#FF8A3D]">Thoughtfully Crafted</span> for Modern Food.
         </h1>
 
         {/* Subtitle */}
         <p
-          className="text-lg md:text-xl text-[#0B3D91]/80 leading-relaxed max-w-md"
+          className="text-lg md:text-xl text-[#0B3D91]/75 leading-relaxed max-w-xl"
           style={{ fontFamily: 'Dosis, sans-serif' }}
         >
-          From plant-based spreads to frozen vegetables and beyond — PlantSmör brings the best of plants to every table, kitchen and food business.
+          From premium table margarines &amp; bakery fats to farm-fresh IQF vegetables and plant proteins — PlantSmör engineers pure, clean-label plant solutions for household tables and commercial kitchens.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap items-center gap-4 pt-2">
           <Link to="/products">
-            <Button variant="primary" size="lg">
-              Explore Our Products →
+            <Button variant="primary" size="lg" className="shadow-lg shadow-[#0B3D91]/15">
+              Explore 160+ Products →
             </Button>
           </Link>
-          <Link to="/about">
-            <Button variant="outline" size="lg">
-              Our Story
+          <Link to="/foodservice">
+            <Button variant="outline" size="lg" className="bg-white/80 hover:bg-white">
+              Foodservice &amp; Bulk Supply
             </Button>
           </Link>
         </div>
 
-        {/* Social proof */}
-        <div className="flex items-center gap-4 pt-2">
-          <div className="flex -space-x-2">
-            {['#FFD438', '#7EC8F8', '#FF6B8B', '#7CC576'].map((color, i) => (
-              <div
-                key={i}
-                className="w-8 h-8 rounded-full border-2 border-white"
-                style={{ backgroundColor: color }}
-              />
-            ))}
+        {/* Trust metrics */}
+        <div className="grid grid-cols-3 gap-6 pt-6 border-t border-[#0B3D91]/10 max-w-lg">
+          <div>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              100%
+            </span>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              Plant-Based
+            </span>
           </div>
-          <p className="text-sm text-[#0B3D91]/60" style={{ fontFamily: 'Dosis, sans-serif' }}>
-            Loved by <strong className="text-[#0B3D91]">10,000+</strong> kitchens
-          </p>
+          <div>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              164
+            </span>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              Active SKUs
+            </span>
+          </div>
+          <div>
+            <span className="block text-2xl font-bold text-[#0B3D91]" style={{ fontFamily: 'Fredoka, sans-serif' }}>
+              IQF
+            </span>
+            <span className="text-xs text-slate-500 uppercase tracking-wider font-semibold" style={{ fontFamily: 'Dosis, sans-serif' }}>
+              Peak Freshness
+            </span>
+          </div>
         </div>
       </div>
 
-      {/* Right: Product tubs */}
-      <div className="flex items-center justify-center lg:justify-end relative">
-        <div className="relative flex items-end gap-0">
-          {/* Decorative leaves */}
-          <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-4xl select-none pointer-events-none">
-            🌿
-          </span>
-          <span className="absolute -bottom-4 right-0 text-2xl select-none pointer-events-none opacity-70">
-            🌿
-          </span>
+      {/* Right: BADA Hero Signature Blob Card Showcase (5 cols) */}
+      <div className="lg:col-span-5 flex items-center justify-center">
+        <div className="relative w-full max-w-md group">
+          {/* Main Floating Card */}
+          <div className="relative bg-white rounded-3xl p-6 sm:p-8 border border-slate-100 shadow-[0_12px_44px_rgba(11,61,145,0.08)] transition-all duration-500 group-hover:shadow-[0_20px_50px_rgba(11,61,145,0.12)]">
+            {/* Top Specs Pill */}
+            <div className="flex items-center justify-between mb-4">
+              <span
+                className="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#FFF9D6] text-[#0B3D91] border border-[#FFD438]/40"
+                style={{ fontFamily: 'Dosis, sans-serif' }}
+              >
+                Signature Formulation
+              </span>
+              <span className="text-xs font-semibold text-slate-400">Premium Grade</span>
+            </div>
 
-          {/* Product tubs */}
-          <div className="-mr-4" style={{ zIndex: 1 }}>
-            <ProductCard
-              name={products[2].shortName}
-              color={products[2].color}
-              lidColor={products[2].lidColor}
-              weight={products[2].weight}
-              rotate="-8deg"
-              zIndex={1}
-            />
-          </div>
-          <div style={{ zIndex: 3 }}>
-            <div className="drop-shadow-2xl">
-              <ProductCard
-                name={products[0].shortName}
-                color={products[0].color}
-                lidColor={products[0].lidColor}
-                weight={products[0].weight}
-                tagline={products[0].tagline}
-                rotate="0deg"
-                zIndex={3}
+            {/* BADA Organic Fluid Blob with Product Hero Image */}
+            <div className="relative w-full h-64 sm:h-72 flex items-center justify-center overflow-visible my-3">
+              {/* Large Fluid Blob Background */}
+              <div
+                className="absolute inset-0 rounded-[42%_58%_70%_30%/45%_52%_48%_55%] opacity-90 transition-transform duration-700 group-hover:rotate-6 group-hover:scale-105"
+                style={{ backgroundColor: '#FFF9D6' }}
+              />
+              <img
+                src={greenPeasBlob}
+                alt="PlantSmör Signature Green Peas"
+                className="relative z-10 w-52 sm:w-60 h-52 sm:h-60 object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500 select-none"
               />
             </div>
-          </div>
-          <div className="-ml-4" style={{ zIndex: 1 }}>
-            <ProductCard
-              name={products[1].shortName}
-              color={products[1].color}
-              lidColor={products[1].lidColor}
-              weight={products[1].weight}
-              rotate="8deg"
-              zIndex={1}
-            />
+
+            {/* Details Footer */}
+            <div className="pt-4 border-t border-slate-100 text-center">
+              <h3
+                className="text-xl font-bold text-[#0B3D91]"
+                style={{ fontFamily: 'Fredoka, sans-serif' }}
+              >
+                PlantSmör Farm-Fresh Green Peas
+              </h3>
+              <p className="text-sm text-slate-500 mt-1" style={{ fontFamily: 'Dosis, sans-serif' }}>
+                Individually Quick Frozen (IQF) at Peak Sweetness &amp; Color
+              </p>
+
+              {/* Functional tags */}
+              <div className="flex flex-wrap justify-center gap-2 mt-4">
+                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+                  0g Trans Fat
+                </span>
+                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200">
+                  Clean Label
+                </span>
+                <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200">
+                  100% Vegan
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     {/* Scroll indicator */}
-    <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
+    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 opacity-40">
       <span className="text-xs text-[#0B3D91]" style={{ fontFamily: 'Dosis, sans-serif' }}>scroll</span>
-      <div className="w-0.5 h-8 bg-[#0B3D91] rounded-full animate-pulse" />
+      <div className="w-0.5 h-6 bg-[#0B3D91] rounded-full animate-pulse" />
     </div>
   </section>
 )
@@ -191,36 +218,47 @@ const BrandIntroSection: React.FC = () => (
 
 // ─── Category Range Section ────────────────────────────────────────────────────
 const CategorySection: React.FC = () => (
-  <section className="py-16 md:py-24" style={{ backgroundColor: '#FFFDF5' }}>
+  <section className="py-20 md:py-28" style={{ backgroundColor: '#F8FAFC' }}>
     <div className="max-w-7xl mx-auto px-4 md:px-6">
-      {/* Header */}
-      <div className="flex items-start justify-between mb-12">
+      {/* Ingredion-Style Clean Section Header */}
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
         <div>
+          <span
+            className="text-xs font-bold uppercase tracking-widest text-[#0B3D91]/70 block mb-2"
+            style={{ fontFamily: 'Dosis, sans-serif' }}
+          >
+            Our Ingredient Portfolio
+          </span>
           <h2
-            className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#0B3D91] mb-2"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0B3D91] leading-tight"
             style={{ fontFamily: 'Fredoka, sans-serif' }}
           >
-            Our Product Range
+            Explore Our Product Range
           </h2>
-          {/* Yellow underline accent */}
-          <div className="h-1 w-24 rounded-full" style={{ backgroundColor: '#FFD438' }} />
+          <p
+            className="text-slate-500 text-base md:text-lg mt-3 max-w-2xl leading-relaxed"
+            style={{ fontFamily: 'Dosis, sans-serif' }}
+          >
+            Clean-label plant spreads, IQF vegetables, artisanal fruits, and high-protein food solutions crafted for modern consumer kitchens and commercial food makers.
+          </p>
         </div>
         <Link
           to="/products"
-          className="hidden md:inline-flex items-center gap-1 text-sm font-semibold text-[#0B3D91] hover:text-[#FFD438] transition-colors duration-200 mt-2"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white border border-slate-200 text-sm font-bold text-[#0B3D91] hover:bg-[#0B3D91] hover:text-white transition-all duration-300 shadow-sm whitespace-nowrap self-start md:self-auto"
           style={{ fontFamily: 'Dosis, sans-serif' }}
         >
-          View All Products →
+          <span>View All 164 Products</span>
+          <span>→</span>
         </Link>
       </div>
 
-      {/* Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
+      {/* BADA Signature Blob Cards Grid (3 Columns, Spacious & Visible) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {activeCategories.map((cat) => (
           <Link
             key={cat.id}
             to={cat.divisionSlug === 'foodservice' ? '/foodservice' : `/products?division=${cat.divisionSlug}`}
-            className="hover:bg-white rounded-2xl transition-colors duration-300 block"
+            className="block h-full"
           >
             <CategoryCard
               name={cat.name}
@@ -228,19 +266,29 @@ const CategorySection: React.FC = () => (
               color={cat.color}
               bg={cat.bg}
               image={categoryHeroImages[cat.name] || categoryHeroImages[cat.divisionSlug]}
+              subtitle={cat.description}
             />
           </Link>
         ))}
       </div>
 
-      {/* Mobile "View All" */}
-      <div className="mt-8 text-center md:hidden">
-        <Link
-          to="/products"
-          className="inline-flex items-center gap-1 text-sm font-semibold text-[#0B3D91] hover:underline"
-          style={{ fontFamily: 'Dosis, sans-serif' }}
-        >
-          View All Products →
+      {/* Bottom B2B Callout Strip */}
+      <div className="mt-16 p-8 rounded-3xl bg-white border border-slate-200/70 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <h4
+            className="text-xl font-bold text-[#0B3D91]"
+            style={{ fontFamily: 'Fredoka, sans-serif' }}
+          >
+            Need Custom Formulations or Bulk Ingredient Supply?
+          </h4>
+          <p className="text-sm text-slate-500 mt-1" style={{ fontFamily: 'Dosis, sans-serif' }}>
+            We work directly with food manufacturers, bakeries, and hotel chains to formulate custom plant-based fat &amp; IQF solutions.
+          </p>
+        </div>
+        <Link to="/foodservice" className="shrink-0">
+          <Button variant="primary" size="md">
+            Request Commercial Sample Kit →
+          </Button>
         </Link>
       </div>
     </div>
