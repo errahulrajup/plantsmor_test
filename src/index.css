@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #0B3D91;
+  --color-brand-yellow: #FFD438;
+  --color-brand-cream: #FFFDF5;
+  --color-carrot: #FF8A3D;
+  --color-strawberry: #FF6B8B;
+  --color-pea: #7CC576;
+  --color-sky: #7EC8F8;
+  --color-purple: #B788F5;
+
+  --font-heading: 'Fredoka', sans-serif;
+  --font-body: 'Dosis', sans-serif;
+}
+
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

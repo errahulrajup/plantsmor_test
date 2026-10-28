@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Frozen Vegetables & Fruits",
+    "slug": "frozen-vegetables-fruits",
+    "productCount": 77,
+    "categories": [
+      {
+        "name": "Frozen Vegetables",
+        "slug": "frozen-vegetables",
+        "count": 48
+      },
+      {
+        "name": "Frozen Fruits",
+        "slug": "frozen-fruits",
+        "count": 29
+      }
+    ]
+  },
+  {
+    "name": "Sauces, Condiments, Dressings & Soups",
+    "slug": "sauces-condiments-dressings-soups",
+    "productCount": 20,
+    "categories": [
+      {
+        "name": "Mayonnaise",
+        "slug": "mayonnaise",
+        "count": 3
+      },
+      {
+        "name": "Ketchup & Tomato Condiments",
+        "slug": "ketchup-tomato-condiments",
+        "count": 2
+      },
+      {
+        "name": "Indian Chutneys",
+        "slug": "indian-chutneys",
+        "count": 9
+      },
+      {
+        "name": "Soups, Stocks & Broths",
+        "slug": "soups-stocks-broths",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name": "Margarine, Oils & Bakery Fats",
+    "slug": "margarine-oils-bakery-fats",
+    "productCount": 25,
+    "categories": [
+      {
+        "name": "Margarine",
+        "slug": "margarine",
+        "count": 4
+      },
+      {
+        "name": "Fat Spreads",
+        "slug": "fat-spreads",
+        "count": 1
+      },
+      {
+        "name": "Edible Oils",
+        "slug": "edible-oils",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "name": "Plant-Based Alternatives (Dairy-Style)",
+    "slug": "plant-based-alternatives-dairy-style",
+    "productCount": 26,
+    "categories": [
+      {
+        "name": "Plant-Based Cheese",
+        "slug": "plant-based-cheese",
+        "count": 3
+      },
+      {
+        "name": "Plant-Based Frozen Desserts",
+        "slug": "plant-based-frozen-desserts",
+        "count": 21
+      },
+      {
+        "name": "Tofu",
+        "slug": "tofu",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "Plant-Based Meat & Protein",
+    "slug": "plant-based-meat-protein",
+    "productCount": 16,
+    "categories": [
+      {
+        "name": "Soya Chaap Range",
+        "slug": "soya-chaap-range",
+        "count": 2
+      },
+      {
+        "name": "Burger Patties & Meat Patties",
+        "slug": "burger-patties-meat-patties",
+        "count": 8
+      },
+      {
+        "name": "Indian Kebabs & Tikka",
+        "slug": "indian-kebabs-tikka",
+        "count": 5
+      },
+      {
+        "name": "Sausages, Hot Dogs & Deli Products",
+        "slug": "sausages-hot-dogs-deli-products",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "Tea, Coffee & Hot Beverages",
+    "slug": "tea-coffee-hot-beverages",
+    "productCount": 14,
+    "categories": [
+      {
+        "name": "Black Tea & Traditional Indian Tea",
+        "slug": "black-tea-traditional-indian-tea",
+        "count": 4
+      },
+      {
+        "name": "Green Tea, White Tea & Specialty Tea",
+        "slug": "green-tea-white-tea-specialty-tea",
+        "count": 6
+      },
+      {
+        "name": "Coffee Beans, Roasted & Ground Coffee",
+        "slug": "coffee-beans-roasted-ground-coffee",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name": "Dry Foods (Pasta, Noodles, Grains, Flour, Pulses)",
+    "slug": "dry-foods-pasta-noodles-grains-flour-pulses",
+    "productCount": 3,
+    "categories": [
+      {
+        "name": "Traditional Pasta & Spaghetti",
+        "slug": "traditional-pasta-spaghetti",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name": "Papad, Namkeen & Indian Snacks",
+    "slug": "papad-namkeen-indian-snacks",
+    "productCount": 26,
+    "categories": [
+      {
+        "name": "Papad Range",
+        "slug": "papad-range",
+        "count": 7
+      },
+      {
+        "name": "Bhujia & Sev",
+        "slug": "bhujia-sev",
+        "count": 10
+      },
+      {
+        "name": "Namkeen Mixtures",
+        "slug": "namkeen-mixtures",
+        "count": 3
+      },
+      {
+        "name": "Dal-Based Namkeen",
+        "slug": "dal-based-namkeen",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name": "Ready-to-Eat (RTE) Retort Meals",
+    "slug": "ready-to-eat-rte-retort-meals",
+    "productCount": 5,
+    "categories": [
+      {
+        "name": "Ready-to-Eat Dal & Lentil Meals",
+        "slug": "ready-to-eat-dal-lentil-meals",
+        "count": 1
+      },
+      {
+        "name": "Ready-to-Eat Beans & Legume Curries",
+        "slug": "ready-to-eat-beans-legume-curries",
+        "count": 2
+      },
+      {
+        "name": "Plant-Based Protein & Meat-Alternative RTE Meals",
+        "slug": "plant-based-protein-meat-alternative-rte-meals",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "Canned & Retort-Processed Foods",
+    "slug": "canned-retort-processed-foods",
+    "productCount": 8,
+    "categories": [
+      {
+        "name": "Canned Vegetables",
+        "slug": "canned-vegetables",
+        "count": 6
+      },
+      {
+        "name": "Canned Cooking Ingredients",
+        "slug": "canned-cooking-ingredients",
+        "count": 2
+      }
+    ]
+  }
+]

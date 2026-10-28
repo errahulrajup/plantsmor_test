@@ -1,0 +1,227 @@
+
+==================================================
+### Canned & Retort-Processed Foods
+Already Has Image (1): Canned Green Peas (कैन्ड हरी मटर)
+
+MISSING (7):
+  [ ] Canned Sweet Corn Kernels (कैन्ड स्वीट कॉर्न)
+  [ ] Canned Baby Corn Cuts (कैन्ड बेबी कॉर्न)
+  [ ] Canned Mushrooms (कैन्ड मशरूम)
+  [ ] Canned Spinach (कैन्ड पालक)
+  [ ] Canned Peeled Tomatoes (कैन्ड छिले टमाटर)
+  [ ] Canned Tomato Puree (कैन्ड टमाटर प्यूरी)
+  [ ] Canned Tomato Paste (कैन्ड टमाटर पेस्ट)
+
+==================================================
+### Dry Foods (Pasta, Noodles, Grains, Flour, Pulses)
+Already Has Image (1): Spaghetti (स्पेगेटी)
+
+MISSING (2):
+  [ ] Macaroni (मैकरोनी)
+  [ ] Elbow Macaroni (एल्बो मैकरोनी)
+
+==================================================
+### Frozen Vegetables & Fruits
+Already Has Image (41): Frozen Green Peas (फ्रोजन हरी मटर), Frozen Sweet Corn Kernels (फ्रोजन स्वीट कॉर्न), Frozen Baby Corn (फ्रोजन बेबी कॉर्न), Frozen French Beans (फ्रोजन फ्रेंच बीन्स), Frozen Mixed Vegetables (फ्रोजन मिक्स्ड वेजिटेबल्स), Frozen Cauliflower (फ्रोजन फूलगोभी), Frozen Broccoli (फ्रोजन ब्रोकोली), Frozen Spinach (फ्रोजन पालक), Frozen Okra (फ्रोजन भिंडी), Frozen Potatoes (फ्रोजन आलू), Frozen Onions (फ्रोजन प्याज), Frozen Tomatoes (फ्रोजन टमाटर), Frozen Green Capsicum (फ्रोजन हरी शिमला मिर्च), Frozen Red Capsicum (फ्रोजन लाल शिमला मिर्च), Frozen Yellow Capsicum (फ्रोजन पीली शिमला मिर्च), Frozen Cabbage (फ्रोजन पत्तागोभी), Frozen Mushrooms (फ्रोजन मशरूम), Frozen Pumpkin (फ्रोजन कद्दू), Frozen Bitter Gourd (फ्रोजन करेला), Frozen Bottle Gourd (फ्रोजन लौकी), Frozen Ridge Gourd (फ्रोजन तुरई), Frozen Tinda (फ्रोजन टिंडा), Frozen Drumsticks (फ्रोजन सहजन), Frozen Green Chana (फ्रोजन हरा चना), Frozen Green Jackfruit (फ्रोजन कच्चा कटहल), Frozen Lotus Root (फ्रोजन कमल ककड़ी), Frozen Garlic Cloves (फ्रोजन लहसुन), Frozen Coriander (फ्रोजन हरा धनिया), Frozen Basil (फ्रोजन बेसिल), Frozen Mango (फ्रोजन आम), Frozen Papaya (फ्रोजन पपीता), Frozen Pink Guava (फ्रोजन गुलाबी अमरूद), Frozen Pomegranate Arils (फ्रोजन अनार के दाने), Frozen Banana (फ्रोजन केला), Frozen Strawberries (फ्रोजन स्ट्रॉबेरी), Frozen Jamun (फ्रोजन जामुन), Frozen Peach (फ्रोजन आड़ू), Frozen Custard Apple Pulp (फ्रोजन सीताफल पल्प), Frozen Raspberry (फ्रोजन रास्पबेरी), Frozen Blueberry (फ्रोजन ब्लूबेरी), Frozen Cherry (फ्रोजन चेरी)
+
+MISSING (36):
+  [ ] Frozen Carrots (फ्रोजन गाजर)
+  [ ] Frozen Sweet Potatoes (फ्रोजन शकरकंद)
+  [ ] Frozen Green Chillies (फ्रोजन हरी मिर्च)
+  [ ] Frozen Red Chillies (फ्रोजन लाल मिर्च)
+  [ ] Frozen Beetroot (फ्रोजन चुकंदर)
+  [ ] Frozen Ash Gourd (फ्रोजन पेठा)
+  [ ] Frozen Cluster Beans (फ्रोजन ग्वार फली)
+  [ ] Frozen Zucchini (फ्रोजन ज़ुकीनी)
+  [ ] Frozen Asparagus (फ्रोजन एस्पैरगस)
+  [ ] Frozen Water Chestnuts (फ्रोजन सिंघाड़ा)
+  [ ] Frozen Guar (फ्रोजन ग्वार)
+  [ ] Frozen Methi Leaves (फ्रोजन मेथी के पत्ते)
+  [ ] Frozen Mustard Greens (फ्रोजन सरसों के पत्ते)
+  [ ] Frozen Ginger (फ्रोजन अदरक)
+  [ ] Frozen Spring Onion (फ्रोजन हरा प्याज)
+  [ ] Frozen Mint (फ्रोजन पुदीना)
+  [ ] Frozen Curry Leaves (फ्रोजन करी पत्ता)
+  [ ] Frozen Parsley (फ्रोजन पार्सले)
+  [ ] Frozen Lemongrass (फ्रोजन लेमनग्रास)
+  [ ] Frozen Pineapple (फ्रोजन अनानास)
+  [ ] Frozen Guava (फ्रोजन अमरूद)
+  [ ] Frozen Litchi (फ्रोजन लीची)
+  [ ] Frozen Coconut Pieces (फ्रोजन नारियल के टुकड़े)
+  [ ] Frozen Jackfruit (फ्रोजन कटहल)
+  [ ] Frozen Phalsa (फ्रोजन फालसा)
+  [ ] Frozen Mulberry (फ्रोजन शहतूत)
+  [ ] Frozen Apple (फ्रोजन सेब)
+  [ ] Frozen Plum (फ्रोजन आलूबुखारा)
+  [ ] Frozen Fig (फ्रोजन अंजीर)
+  [ ] Frozen Dragon Fruit (फ्रोजन ड्रैगन फ्रूट)
+  [ ] Frozen Passion Fruit (फ्रोजन पैशन फ्रूट)
+  [ ] Frozen Blackberry (फ्रोजन ब्लैकबेरी)
+  [ ] Frozen Cranberry (फ्रोजन क्रैनबेरी)
+  [ ] Frozen Blackcurrant (फ्रोजन ब्लैककरंट)
+  [ ] Frozen Red Currant (फ्रोजन रेड करंट)
+  [ ] Frozen Kiwi (फ्रोजन कीवी)
+
+==================================================
+### Margarine, Oils & Bakery Fats
+Already Has Image (1): Table Margarine (टेबल मार्गरीन)
+
+MISSING (24):
+  [ ] Unsalted Margarine (अनसॉल्टेड मार्गरीन)
+  [ ] Fat Spread (फैट स्प्रेड)
+  [ ] Liquid Margarine (लिक्विड मार्गरीन)
+  [ ] Industrial Margarine (इंडस्ट्रियल मार्गरीन)
+  [ ] Refined Soybean Oil (रिफाइंड सोयाबीन तेल)
+  [ ] Refined Sunflower Oil (रिफाइंड सूरजमुखी तेल)
+  [ ] Refined Palm Oil (रिफाइंड पाम तेल)
+  [ ] Palmolein Oil (पामोलीन तेल)
+  [ ] Palm Kernel Oil (पाम कर्नेल तेल)
+  [ ] Refined Rice Bran Oil (रिफाइंड राइस ब्रान तेल)
+  [ ] Refined Groundnut Oil (रिफाइंड मूंगफली तेल)
+  [ ] Refined Mustard Oil (रिफाइंड सरसों तेल)
+  [ ] Refined Canola Oil (रिफाइंड कैनोला तेल)
+  [ ] Refined Rapeseed Oil (रिफाइंड रेपसीड तेल)
+  [ ] Refined Cottonseed Oil (रिफाइंड कॉटनसीड तेल)
+  [ ] Refined Sesame Oil (रिफाइंड तिल तेल)
+  [ ] Refined Coconut Oil (रिफाइंड नारियल तेल)
+  [ ] Refined Safflower Oil (रिफाइंड कुसुम तेल)
+  [ ] Refined Olive Oil (रिफाइंड जैतून तेल)
+  [ ] Refined Avocado Oil (रिफाइंड एवोकाडो तेल)
+  [ ] Virgin Coconut Oil (वर्जिन नारियल तेल)
+  [ ] Sesame Oil (तिल तेल)
+  [ ] Almond Oil (बादाम तेल)
+  [ ] Blended Vegetable Oil (ब्लेंडेड वेजिटेबल तेल)
+
+==================================================
+### Papad, Namkeen & Indian Snacks
+Already Has Image (1): Urad Papad (उड़द पापड़)
+
+MISSING (25):
+  [ ] Moong Papad (मूंग पापड़)
+  [ ] Rice Papad (राइस पापड़)
+  [ ] Potato Papad (आलू पापड़)
+  [ ] Sabudana Papad (साबूदाना पापड़)
+  [ ] Masala Papad (मसाला पापड़)
+  [ ] Black Pepper Papad (काली मिर्च पापड़)
+  [ ] Bikaneri Bhujia (बीकानेरी भुजिया)
+  [ ] Aloo Bhujia (आलू भुजिया)
+  [ ] Ratlami Sev (रतलामी सेव)
+  [ ] Plain Sev (सादी सेव)
+  [ ] Fine Sev (फाइन सेव)
+  [ ] Thick Sev (मोटी सेव)
+  [ ] Gathiya (गाठिया)
+  [ ] Papdi Gathiya (पापड़ी गाठिया)
+  [ ] Masala Gathiya (मसाला गाठिया)
+  [ ] Hing Gathiya (हींग गाठिया)
+  [ ] Gujarati Mixture (गुजराती मिक्सचर)
+  [ ] Navratan Mixture (नवरत्न मिक्सचर)
+  [ ] Khatta Meetha Mixture (खट्टा मीठा मिक्सचर)
+  [ ] Fried Moong Dal (फ्राइड मूंग दाल)
+  [ ] Roasted Chana (भुना चना)
+  [ ] Masala Roasted Chana (मसाला भुना चना)
+  [ ] Chana Jor Garam (चना जोर गरम)
+  [ ] Roasted Green Peas (भुनी हरी मटर)
+  [ ] Masala Green Peas (मसाला हरी मटर)
+
+==================================================
+### Plant-Based Alternatives (Dairy-Style)
+Already Has Image (2): Plant-Based Burger Slices (प्लांट-बेस्ड बर्गर स्लाइस), Vanilla Frozen Dessert (वनीला फ्रोजन डेजर्ट)
+
+MISSING (24):
+  [ ] Plant-Based Pizza Topping (प्लांट-बेस्ड पिज़्ज़ा टॉपिंग)
+  [ ] Plant-Based Grated Topping (प्लांट-बेस्ड ग्रेटेड टॉपिंग)
+  [ ] Chocolate Frozen Dessert (चॉकलेट फ्रोजन डेजर्ट)
+  [ ] Strawberry Frozen Dessert (स्ट्रॉबेरी फ्रोजन डेजर्ट)
+  [ ] Mango Frozen Dessert (मैंगो फ्रोजन डेजर्ट)
+  [ ] Butterscotch Frozen Dessert (बटरस्कॉच फ्रोजन डेजर्ट)
+  [ ] Coffee Frozen Dessert (कॉफी फ्रोजन डेजर्ट)
+  [ ] Pistachio Frozen Dessert (पिस्ता फ्रोजन डेजर्ट)
+  [ ] Coconut Frozen Dessert (नारियल फ्रोजन डेजर्ट)
+  [ ] Cookies & Cream-Style Frozen Dessert (कुकीज़ एंड क्रीम फ्रोजन डेजर्ट)
+  [ ] Mixed Berry Frozen Dessert (मिक्स्ड बेरी फ्रोजन डेजर्ट)
+  [ ] Salted Caramel Frozen Dessert (साल्टेड कैरेमल फ्रोजन डेजर्ट)
+  [ ] Chocolate Chip Frozen Dessert (चॉकलेट चिप फ्रोजन डेजर्ट)
+  [ ] Tender Coconut Frozen Dessert (टेंडर नारियल फ्रोजन डेजर्ट)
+  [ ] Kesar Pista Frozen Dessert (केसर पिस्ता फ्रोजन डेजर्ट)
+  [ ] Rajbhog-Style Frozen Dessert (राजभोग फ्रोजन डेजर्ट)
+  [ ] Kulfi-Style Frozen Dessert (कुल्फी फ्रोजन डेजर्ट)
+  [ ] Malai-Style Frozen Dessert (मलाई फ्रोजन डेजर्ट)
+  [ ] Kesar Frozen Dessert (केसर फ्रोजन डेजर्ट)
+  [ ] Rose-Flavoured Frozen Dessert (रोज़ फ्रोजन डेजर्ट)
+  [ ] Mango Kulfi-Style Frozen Dessert (मैंगो कुल्फी फ्रोजन डेजर्ट)
+  [ ] Chocolate Kulfi-Style Frozen Dessert (चॉकलेट कुल्फी फ्रोजन डेजर्ट)
+  [ ] Tofu (टोफू)
+  [ ] High-Protein Tofu (हाई-प्रोटीन टोफू)
+
+==================================================
+### Plant-Based Meat & Protein
+Already Has Image (2): Soya Chaap (सोया चाप), Plant-Based Burger Patty (प्लांट-बेस्ड बर्गर पैटी)
+
+MISSING (14):
+  [ ] Tandoori Soya Chaap (तंदूरी सोया चाप)
+  [ ] Soya Burger Patty (सोया बर्गर पैटी)
+  [ ] Vegetable Burger Patty (वेजिटेबल बर्गर पैटी)
+  [ ] Mushroom Burger Patty (मशरूम बर्गर पैटी)
+  [ ] Pea Protein Burger Patty (पी प्रोटीन बर्गर पैटी)
+  [ ] Plant-Based Grill Patty (प्लांट-बेस्ड ग्रिल पैटी)
+  [ ] Plant-Based Stuffed Burger Patty (स्टफ्ड बर्गर पैटी)
+  [ ] Plant-Based Seekh Kebab (प्लांट-बेस्ड सीख कबाब)
+  [ ] Soya Seekh Kebab (सोया सीख कबाब)
+  [ ] Plant-Based Hara Bhara Kebab (हरा भरा कबाब)
+  [ ] Plant-Based Tikka (प्लांट-बेस्ड टिक्का)
+  [ ] Soya Tikka (सोया टिक्का)
+  [ ] Plant-Based Hot Dogs (प्लांट-बेस्ड हॉट डॉग्स)
+  [ ] Jackfruit Burger Patty (जैकफ्रूट बर्गर पैटी)
+
+==================================================
+### Ready-to-Eat (RTE) Retort Meals
+Already Has Image (1): Dal Makhani (दाल मखनी)
+
+MISSING (4):
+  [ ] Rajma Masala (राजमा मसाला)
+  [ ] Amritsari Chole (अमृतसरी छोले)
+  [ ] Soya Chaap Curry (सोया चाप करी)
+  [ ] Tandoori Soya Chaap Curry (तंदूरी सोया चाप करी)
+
+==================================================
+### Sauces, Condiments, Dressings & Soups
+Already Has Image (2): Plant-Based Mayonnaise (प्लांट-बेस्ड मेयोनेज़), Tomato Ketchup (टमाटर केचप)
+
+MISSING (18):
+  [ ] Zero Sugar Mayonnaise (ज़ीरो शुगर मेयोनेज़)
+  [ ] Tandoori Mayonnaise (तंदूरी मेयोनेज़)
+  [ ] Tomato Sauce (टमाटर सॉस)
+  [ ] Indian Chaat Chutney (इंडियन चाट चटनी)
+  [ ] Garlic Chutney (लहसुन चटनी)
+  [ ] Red Chilli Chutney (लाल मिर्च चटनी)
+  [ ] Red Chilli Garlic Chutney (लाल मिर्च लहसुन चटनी)
+  [ ] Green Chilli Garlic Chutney (हरी मिर्च लहसुन चटनी)
+  [ ] Coconut Chutney (नारियल चटनी)
+  [ ] Roasted Coconut Chutney (भुना नारियल चटनी)
+  [ ] Peanut Chutney (मूंगफली चटनी)
+  [ ] Schezwan Chutney (शेजवान चटनी)
+  [ ] Tomato Soup (टमाटर सूप)
+  [ ] Sweet Corn Soup (स्वीट कॉर्न सूप)
+  [ ] Mixed Vegetable Soup (मिक्स्ड वेजिटेबल सूप)
+  [ ] Lemon Coriander Soup (लेमन कोरिएंडर सूप)
+  [ ] Hot & Sour Vegetable Soup (हॉट एंड सॉर वेजिटेबल सूप)
+  [ ] Manchow Soup (मंचो सूप)
+
+==================================================
+### Tea, Coffee & Hot Beverages
+Already Has Image (1): Roasted Coffee Beans (रोस्टेड कॉफी बीन्स)
+
+MISSING (13):
+  [ ] CTC Tea (सीटीसी चाय)
+  [ ] Premium Tea (प्रीमियम चाय)
+  [ ] Classic Indian Tea (क्लासिक इंडियन चाय)
+  [ ] Premium Tea Bags (प्रीमियम टी बैग्स)
+  [ ] Premium Green Tea (प्रीमियम ग्रीन टी)
+  [ ] Jasmine Green Tea (जैस्मीन ग्रीन टी)
+  [ ] Mint Green Tea (मिंट ग्रीन टी)
+  [ ] Lemon Green Tea (लेमन ग्रीन टी)
+  [ ] Ginger Green Tea (अदरक ग्रीन टी)
+  [ ] Honey-Lemon-Style Green Tea (हनी लेमन ग्रीन टी)
+  [ ] Ground Coffee (ग्राउंड कॉफी)
+  [ ] Filter Coffee (फिल्टर कॉफी)
+  [ ] Espresso Roast Coffee (एस्प्रेसो रोस्ट कॉफी)
