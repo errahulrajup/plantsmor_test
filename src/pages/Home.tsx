@@ -102,25 +102,22 @@ const HeroSection: React.FC = () => (
         </div>
       </div>
 
-      {/* Right: Unboxed Spacious Hero Signature Blob (No box-in-a-box) */}
+      {/* Right: Pure Original Blob Showcase (Zero double-blob, maximum product scale) */}
       <div className="lg:col-span-5 flex items-center justify-center relative">
-        <div className="relative w-full max-w-lg flex items-center justify-center group py-6">
-          {/* Single Signature Organic Fluid Blob (Directly on canvas) */}
-          <div
-            className="absolute inset-0 blob-morph opacity-90 transition-transform duration-700 group-hover:rotate-3 group-hover:scale-105 shadow-sm"
-            style={{ backgroundColor: '#FFF9D6', minHeight: '360px' }}
-          />
+        <div className="relative w-full max-w-xl flex items-center justify-center group py-4">
+          {/* Gentle soft ambient glow for depth */}
+          <div className="absolute w-80 sm:w-96 h-80 sm:h-96 rounded-full bg-[#7CC576]/10 blur-3xl pointer-events-none" />
 
-          {/* Floating Product Image (HUGE, BADA & UNCONSTRAINED) */}
+          {/* Authentic Original Product Blob — BADA, CRISP & UNCONSTRAINED */}
           <img
             src={greenPeasBlob}
             alt="PlantSmör Farm-Fresh Green Peas"
-            className="relative z-10 w-72 sm:w-80 md:w-96 h-auto object-contain drop-shadow-2xl transition-transform duration-500 group-hover:scale-108 select-none py-6"
+            className="relative z-10 w-full max-w-md sm:max-w-lg lg:max-w-xl h-auto object-contain drop-shadow-2xl transition-transform duration-700 group-hover:scale-106 select-none"
           />
 
-          {/* Floating Feature Pills (Glassmorphic & Transparent) */}
+          {/* Floating Feature Pills (Glassmorphic & Clean) */}
           <div
-            className="absolute -top-1 right-2 sm:right-6 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/60 flex items-center gap-2 z-20"
+            className="absolute top-2 right-1 sm:right-4 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/70 flex items-center gap-2 z-20"
             style={{ fontFamily: 'Inter, sans-serif' }}
           >
             <span className="w-2 h-2 rounded-full bg-[#7CC576]" />
@@ -128,7 +125,7 @@ const HeroSection: React.FC = () => (
           </div>
 
           <div
-            className="absolute -bottom-1 left-2 sm:left-6 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/60 flex items-center gap-2 z-20"
+            className="absolute bottom-2 left-1 sm:left-4 px-4 py-2 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/70 flex items-center gap-2 z-20"
             style={{ fontFamily: 'Inter, sans-serif' }}
           >
             <span className="w-2 h-2 rounded-full bg-[#FF8A3D]" />
@@ -320,31 +317,25 @@ const BrandStorySection: React.FC = () => (
   <section className="py-16 md:py-24 overflow-hidden" style={{ backgroundColor: '#FFFDF5' }}>
     <div className="max-w-7xl mx-auto px-4 md:px-6">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left: Visual with real peas artwork */}
+        {/* Left: Visual with real original peas artwork (no double wave/blob) */}
         <div className="relative flex items-center justify-center">
-          <div className="relative w-full max-w-lg flex items-center justify-center">
-            <WaveShape
-              className="w-full h-88 md:h-96"
-              color="#FFD438"
-              opacity={0.9}
+          <div className="relative w-full max-w-lg flex items-center justify-center group py-4">
+            <div className="absolute w-72 h-72 rounded-full bg-[#7CC576]/10 blur-2xl pointer-events-none" />
+            <img
+              src={greenPeasBlob}
+              alt="PlantSmör IQF Fresh Green Peas"
+              className="relative z-10 w-full max-w-md sm:max-w-lg h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 select-none"
             />
-            <div className="absolute inset-0 flex items-center justify-center p-2">
-              <img
-                src={greenPeasBlob}
-                alt="PlantSmör IQF Fresh Green Peas"
-                className="w-80 sm:w-96 md:w-[420px] h-auto object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-300 select-none"
-              />
-            </div>
             {/* Feature badges */}
             <div
-              className="absolute -top-1 right-2 sm:right-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-white text-[#0B3D91] shadow-lg border border-[#0B3D91]/10 flex items-center gap-1.5 z-10"
+              className="absolute top-2 right-2 sm:right-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/95 backdrop-blur-md text-[#0B3D91] shadow-lg border border-slate-200/70 flex items-center gap-1.5 z-20"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
               <span className="text-sm">🌿</span>
               <span>100% Farm Fresh IQF</span>
             </div>
             <div
-              className="absolute -bottom-1 left-2 sm:left-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#7CC576] text-white shadow-lg flex items-center gap-1.5 z-10"
+              className="absolute bottom-2 left-2 sm:left-6 px-3.5 py-1.5 rounded-full text-xs font-bold bg-[#7CC576] text-white shadow-lg flex items-center gap-1.5 z-20"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
               <span className="text-sm">❄️</span>

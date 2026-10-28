@@ -412,35 +412,38 @@ const MasterProductCard: React.FC<{ product: MasterProduct }> = ({ product }) =>
           </span>
         </div>
 
-        {/* Spacious Stage: SINGLE fluid organic blob + MAXIMUM SIZE floating image */}
+        {/* Spacious Stage: Authentic Product Artwork at Maximum Scale (No blob-in-blob) */}
         <div className="relative my-3 w-full h-52 sm:h-56 flex items-center justify-center overflow-visible">
-          {/* Single Organic Fluid Blob Background (Breathing organic morph) */}
-          <div
-            className="absolute inset-0 blob-morph opacity-85 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 shadow-xs"
-            style={{
-              backgroundColor: `${themeColor}18`,
-              animationDuration: `${7 + ((product.id % 4) * 1.5)}s`,
-              animationDelay: `-${(product.id % 3) * 0.9}s`,
-            }}
-          />
-
           {productImage ? (
-            <img
-              src={productImage}
-              alt={product.name}
-              loading="lazy"
-              className="relative z-10 w-44 sm:w-52 h-44 sm:h-52 object-contain drop-shadow-xl group-hover:scale-110 transition-transform duration-300 select-none"
-            />
-          ) : (
-            <div className="relative z-10 flex flex-col items-center justify-center">
-              <span
-                role="img"
-                aria-label={product.name}
-                className="text-6xl sm:text-7xl select-none drop-shadow-md group-hover:scale-110 transition-transform duration-300"
-              >
-                {divisionMeta?.emoji || '🌱'}
-              </span>
+            <div className="relative w-full h-full flex items-center justify-center">
+              <div className="absolute w-36 h-36 rounded-full bg-slate-100/70 blur-xl pointer-events-none" />
+              <img
+                src={productImage}
+                alt={product.name}
+                loading="lazy"
+                className="relative z-10 w-full h-full max-h-52 sm:max-h-56 object-contain drop-shadow-xl group-hover:scale-108 transition-transform duration-300 select-none"
+              />
             </div>
+          ) : (
+            <>
+              <div
+                className="absolute inset-0 blob-morph opacity-85 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 shadow-xs"
+                style={{
+                  backgroundColor: `${themeColor}18`,
+                  animationDuration: `${7 + ((product.id % 4) * 1.5)}s`,
+                  animationDelay: `-${(product.id % 3) * 0.9}s`,
+                }}
+              />
+              <div className="relative z-10 flex flex-col items-center justify-center">
+                <span
+                  role="img"
+                  aria-label={product.name}
+                  className="text-6xl sm:text-7xl select-none drop-shadow-md group-hover:scale-110 transition-transform duration-300"
+                >
+                  {divisionMeta?.emoji || '🌱'}
+                </span>
+              </div>
+            </>
           )}
         </div>
 
